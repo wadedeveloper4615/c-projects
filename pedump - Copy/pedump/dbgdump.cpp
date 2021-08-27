@@ -56,7 +56,7 @@ void DumpDbgFile( PIMAGE_SEPARATE_DEBUG_HEADER pImageSepDbgHeader )
         (pImageSepDbgHeader->NumberOfSections * sizeof(IMAGE_SECTION_HEADER))
         + pImageSepDbgHeader->ExportedNamesSize),
         pImageSepDbgHeader->DebugDirectorySize,
-        (DWORD)pImageSepDbgHeader);
+        pImageSepDbgHeader);
     
     printf("\n");
     

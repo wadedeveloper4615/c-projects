@@ -238,7 +238,7 @@ void DumpOptionalHeader(PIMAGE_OPTIONAL_HEADER optionalHeader)
     }
 }
 
-PSTR GetMachineTypeName( WORD wMachineType )
+const char *GetMachineTypeName( WORD wMachineType )
 {
     switch( wMachineType )
     {
@@ -452,10 +452,10 @@ const char *SzDebugFormats[] = {
 //
 // Dump the debug directory array
 //
-void DumpDebugDirectory(PIMAGE_DEBUG_DIRECTORY debugDir, DWORD size, DWORD base)
+void DumpDebugDirectory(PIMAGE_DEBUG_DIRECTORY debugDir, DWORD size, void *base)
 {
     DWORD cDebugFormats = size / sizeof(IMAGE_DEBUG_DIRECTORY);
-    PSTR szDebugFormat;
+    const char *szDebugFormat;
     unsigned i;
     
     if ( cDebugFormats == 0 )

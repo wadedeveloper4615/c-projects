@@ -26,7 +26,7 @@ void DumpDebugDirectory(PIMAGE_DEBUG_DIRECTORY debugDir, DWORD size, DWORD base)
 void DumpCOFFHeader(PIMAGE_COFF_SYMBOLS_HEADER pDbgInfo);
 void HexDump(PBYTE ptr, DWORD length);
 
-PSTR GetMachineTypeName( WORD wMachineType );
+const char *GetMachineTypeName( WORD wMachineType );
 
 #define GetImgDirEntryRVA( pNTHdr, IDE ) \
 	(pNTHdr->OptionalHeader.DataDirectory[IDE].VirtualAddress)

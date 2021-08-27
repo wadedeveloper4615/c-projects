@@ -48,3 +48,9 @@ pedump old/
 pedump/.vs/
 pedump/pedump/Win32/
 pedump/pedump/x64/
+pedump - Copy/.vs/
+pedump - Copy/pedump/Win32/Debug/pedump.Build.CppClean.log
+pedump - Copy/pedump/Win32/
+pedump - Copy/pedump/x64/
+pedump/Win32/
+pedump/x64/

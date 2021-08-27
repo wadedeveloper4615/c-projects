@@ -52,7 +52,7 @@ COFFSymbol::GetTypeName()
 	if ( !m_pSymbolData )
 		return 0;
 
-	sprintf( m_szTypeName, "%04X", m_pSymbolData->Type );
+	sprintf_s( m_szTypeName, 16, "%04X", m_pSymbolData->Type );
 
 	return m_szTypeName;
 }
@@ -63,7 +63,7 @@ COFFSymbol::GetTypeName()
 // how the "auxillary" record that follows it is interpreted
 //
 BOOL
-COFFSymbol::GetAuxSymbolAsString( PTSTR pszBuffer, unsigned cbBuffer )
+COFFSymbol::GetAuxSymbolAsString( char * pszBuffer, unsigned cbBuffer )
 {
 	if ( !m_pSymbolData || (0==m_pSymbolData->NumberOfAuxSymbols) )
 		return FALSE;
@@ -76,13 +76,13 @@ COFFSymbol::GetAuxSymbolAsString( PTSTR pszBuffer, unsigned cbBuffer )
     
     if ( m_pSymbolData->StorageClass == IMAGE_SYM_CLASS_FILE )
 	{
-        lstrcpyn( pszBuffer, (char *)auxSym, cbBuffer );
+        strncpy( pszBuffer, (char *)auxSym, cbBuffer );
 	}
     else if ( (m_pSymbolData->StorageClass == IMAGE_SYM_CLASS_EXTERNAL) )
     {
         if ( (m_pSymbolData->Type & 0xF0) == (IMAGE_SYM_DTYPE_FUNCTION << 4))
         {   
-        	wsprintf( pszBuffer,
+        	sprintf_s( pszBuffer, cbBuffer,
 				"tag: %04X  size: %04X  Line #'s: %08X  next fn: %04X",
             	auxSym->Sym.TagIndex, auxSym->Sym.Misc.TotalSize,
 	            auxSym->Sym.FcnAry.Function.PointerToLinenumber,
@@ -91,15 +91,15 @@ COFFSymbol::GetAuxSymbolAsString( PTSTR pszBuffer, unsigned cbBuffer )
     }
     else if ( (m_pSymbolData->StorageClass == IMAGE_SYM_CLASS_STATIC) )
     {
-        wsprintf( pszBuffer,
-            _T("Section: %04X  Len: %05X  Relocs: %04X  LineNums: %04X"),
+        sprintf_s( pszBuffer, cbBuffer,
+            "Section: %04X  Len: %05X  Relocs: %04X  LineNums: %04X",
             auxSym->Section.Number, auxSym->Section.Length,
             auxSym->Section.NumberOfRelocations,
             auxSym->Section.NumberOfLinenumbers );
     }
 	else
 	{
-		lstrcpyn( pszBuffer, "<unhandled aux symbol>", cbBuffer );
+		strncpy_s( pszBuffer, cbBuffer, "<unhandled aux symbol>", cbBuffer);
 	}
 	
 	return TRUE;
@@ -123,7 +123,7 @@ const char * SzStorageClass2[] = {
 "BLOCK","FUNCTION","END_OF_STRUCT","FILE","SECTION","WEAK_EXTERNAL"
 };
 
-PSTR
+const char *
 COFFSymbol::GetStorageClassName()
 {
 	if ( !m_pSymbolData )

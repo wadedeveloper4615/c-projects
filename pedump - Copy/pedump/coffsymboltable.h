@@ -27,10 +27,10 @@ class COFFSymbol
 	PSTR  GetTypeName();
 	BYTE  GetStorageClass()
 					{ return m_pSymbolData ? m_pSymbolData->StorageClass : 0; }
-	PSTR  GetStorageClassName();
+	const char * GetStorageClassName();
 	BOOL  GetNumberOfAuxSymbols()
 			{ return m_pSymbolData ? m_pSymbolData->NumberOfAuxSymbols : 0; }
-	BOOL  GetAuxSymbolAsString( PTSTR pszBuffer, unsigned cbBuffer );
+	BOOL  GetAuxSymbolAsString( char * pszBuffer, unsigned cbBuffer );
 	
 	friend class COFFSymbolTable;
 };
