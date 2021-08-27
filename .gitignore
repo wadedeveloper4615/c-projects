@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+fat32format Old/
+fat32Format/.vs/
+fat32Format/fat32Format/Debug/
+fat32Format/fat32Format/Release/
+fat32Format/fat32Format/Win32/
+fat32Format/fat32Format/x64/
+fat32Format/Win32/
+fat32Format/x64/
