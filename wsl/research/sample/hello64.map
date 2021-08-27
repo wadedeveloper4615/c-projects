@@ -1,0 +1,1499 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__main)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__native_startup_lock)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_dowildcard)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (mingw_initcharmax)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_setargv)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__security_init_cookie)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_newmode)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (mingw_initltssuo_force)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__xc_z)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_matherr)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_fpreset)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (mingw_app_type)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_pei386_runtime_relocator)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__mingw_setusermatherr)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_fmode)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__mingw_init_ehandler)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o) (__mingw_TLScallback)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o) (_CRT_MT)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o) (__RUNTIME_PSEUDO_RELOC_LIST__)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o) (_FindPESectionByName)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_chkstk_ms.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o) (___chkstk_ms)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_ctors.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o) (__DTOR_LIST__)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_MINGW_INSTALL_DEBUG_MATHERR)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o) (vfprintf)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o) (strncmp)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (strlen)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o) (signal)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+                              hello64.o (puts)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (memcpy)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (malloc)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o) (fwrite)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o) (free)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o) (fprintf)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (exit)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o) (calloc)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (abort)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_onexit)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_initterm)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_cexit)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_amsg_exit)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o) (__setusermatherr)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__set_app_type)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o) (__imp___lconv_init)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__imp___initenv)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__getmainargs)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__C_specific_handler)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o) (__acrt_iob_func)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (_set_invalid_parameter_handler)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__p__acmdln)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__p__fmode)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o) (_head_lib64_libmsvcrt_os_a)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o) (__imp__acmdln)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o) (__iob_func)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-ost.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o) (__lib64_libmsvcrt_os_a_iname)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o) (__imp_VirtualQuery)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o) (__imp_VirtualProtect)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_UnhandledExceptionFilter)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o) (__imp_TlsGetValue)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_TerminateProcess)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__imp_Sleep)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__imp_SetUnhandledExceptionFilter)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_RtlVirtualUnwind)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_RtlLookupFunctionEntry)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_RtlCaptureContext)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o) (__imp_RtlAddFunctionTable)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_QueryPerformanceCounter)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o) (__imp_LeaveCriticalSection)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o) (__imp_InitializeCriticalSection)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_GetTickCount)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_GetSystemTimeAsFileTime)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o (__imp_GetStartupInfoA)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o) (__imp_GetLastError)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_GetCurrentThreadId)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_GetCurrentProcessId)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o) (__imp_GetCurrentProcess)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o) (__imp_EnterCriticalSection)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o) (__imp_DeleteCriticalSection)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o) (_head_lib64_libkernel32_a)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32t.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o) (__lib64_libkernel32_a_iname)
+/usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+                              /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o) (__imp__fmode)
+
+Allocating common symbols
+Common symbol       size              file
+
+__mingw_winmain_lpCmdLine
+                    0x8               /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+__native_startup_state
+                    0x4               /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+__native_startup_lock
+                    0x8               /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+__mingw_winmain_hInstance
+                    0x8               /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+
+Discarded input sections
+
+ .drectve       0x0000000000000000       0x54 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_info    0x0000000000000000     0x7802 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_abbrev  0x0000000000000000      0x565 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_loc     0x0000000000000000      0x57a /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_ranges  0x0000000000000000       0xd0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_line    0x0000000000000000      0x6d7 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_str     0x0000000000000000      0x32c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_frame   0x0000000000000000      0x160 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .debug_info    0x0000000000000000     0x4fc5 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .debug_abbrev  0x0000000000000000      0x20b /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .debug_loc     0x0000000000000000       0x89 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .debug_line    0x0000000000000000      0x2c1 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .debug_str     0x0000000000000000        0x9 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .debug_frame   0x0000000000000000       0x88 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .drectve       0x0000000000000000       0x4c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .debug_info    0x0000000000000000     0x537b /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .debug_abbrev  0x0000000000000000      0x1cd /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .debug_line    0x0000000000000000      0x21a /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .debug_str     0x0000000000000000       0x21 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .debug_info    0x0000000000000000       0xe0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .debug_line    0x0000000000000000       0x3f /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .debug_info    0x0000000000000000      0x21a /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .debug_abbrev  0x0000000000000000       0x90 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .debug_line    0x0000000000000000       0x9e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .debug_str     0x0000000000000000        0xd /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .debug_info    0x0000000000000000     0x50a1 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .debug_abbrev  0x0000000000000000      0x1ab /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .debug_line    0x0000000000000000      0x225 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .debug_str     0x0000000000000000       0x21 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .debug_info    0x0000000000000000     0x2d7c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .debug_abbrev  0x0000000000000000      0x325 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .debug_loc     0x0000000000000000      0x21c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .debug_line    0x0000000000000000      0x264 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .debug_str     0x0000000000000000      0x118 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .debug_frame   0x0000000000000000       0xb8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .debug_info    0x0000000000000000       0xdd /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .debug_line    0x0000000000000000       0x3f /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .debug_info    0x0000000000000000     0x243e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .debug_abbrev  0x0000000000000000      0x256 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .debug_loc     0x0000000000000000      0x314 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .debug_line    0x0000000000000000      0x1bd /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .debug_str     0x0000000000000000       0x3c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .debug_frame   0x0000000000000000       0xa8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .debug_info    0x0000000000000000      0x1d6 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .debug_abbrev  0x0000000000000000       0x5f /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .debug_line    0x0000000000000000       0x3f /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .debug_info    0x0000000000000000      0x2e4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .debug_abbrev  0x0000000000000000      0x107 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .debug_loc     0x0000000000000000      0x10d /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .debug_line    0x0000000000000000       0xef /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .debug_str     0x0000000000000000       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .debug_frame   0x0000000000000000       0x58 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .debug_info    0x0000000000000000       0xea /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .debug_line    0x0000000000000000       0x5d /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .debug_info    0x0000000000000000       0xe8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .debug_line    0x0000000000000000       0x44 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .debug_info    0x0000000000000000     0x6054 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_abbrev  0x0000000000000000      0x3fd /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_loc     0x0000000000000000      0x976 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_ranges  0x0000000000000000      0x220 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_line    0x0000000000000000      0x62b /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_str     0x0000000000000000       0xb1 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .rdata$.refptr.__image_base__
+                0x0000000000000000       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_frame   0x0000000000000000      0x110 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .debug_info    0x0000000000000000      0x378 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .debug_abbrev  0x0000000000000000      0x120 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .debug_loc     0x0000000000000000      0x14d /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .debug_line    0x0000000000000000       0xeb /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .debug_str     0x0000000000000000       0x11 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .debug_frame   0x0000000000000000       0x50 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .debug_info    0x0000000000000000       0xdb /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .debug_line    0x0000000000000000       0x3f /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .debug_info    0x0000000000000000     0x61c7 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .debug_abbrev  0x0000000000000000      0x362 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .debug_loc     0x0000000000000000      0xa17 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .debug_line    0x0000000000000000      0x538 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .debug_str     0x0000000000000000       0x92 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .debug_frame   0x0000000000000000       0xd8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .debug_info    0x0000000000000000     0x26f2 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .debug_abbrev  0x0000000000000000      0x276 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .debug_loc     0x0000000000000000      0x6a1 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .debug_line    0x0000000000000000      0x337 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .debug_str     0x0000000000000000       0x85 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .debug_frame   0x0000000000000000      0x120 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .debug_info    0x0000000000000000       0xdb /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .debug_line    0x0000000000000000       0x3e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .debug_info    0x0000000000000000      0x130 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .debug_line    0x0000000000000000       0x48 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .debug_info    0x0000000000000000     0x5e60 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .debug_abbrev  0x0000000000000000      0x2e0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .debug_loc     0x0000000000000000      0x75c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .debug_ranges  0x0000000000000000      0x1e0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .debug_line    0x0000000000000000      0x62f /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .debug_str     0x0000000000000000       0x5d /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .rdata$.refptr.__image_base__
+                0x0000000000000000       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .debug_frame   0x0000000000000000      0x180 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .drectve       0x0000000000000000       0x3c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_ctors.o)
+ .debug_info    0x0000000000000000       0xf7 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .debug_abbrev  0x0000000000000000       0x2e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .debug_line    0x0000000000000000       0x45 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .debug_info    0x0000000000000000      0x2c2 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .debug_abbrev  0x0000000000000000       0xce /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .debug_loc     0x0000000000000000       0x4f /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .debug_line    0x0000000000000000       0xa9 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .debug_str     0x0000000000000000        0xb /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .debug_frame   0x0000000000000000       0x40 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .debug_info    0x0000000000000000     0x5095 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .debug_abbrev  0x0000000000000000      0x23a /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .debug_loc     0x0000000000000000       0x53 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .debug_line    0x0000000000000000      0x272 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .debug_str     0x0000000000000000        0x9 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .debug_frame   0x0000000000000000       0x48 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .debug_info    0x0000000000000000      0x164 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .debug_abbrev  0x0000000000000000       0x82 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .debug_line    0x0000000000000000       0x62 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .debug_info    0x0000000000000000      0x14b /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .debug_abbrev  0x0000000000000000       0x73 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .debug_line    0x0000000000000000       0x61 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .debug_str     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000400000                __image_base__ = 0x400000
+                0x0000000000000000                __dll__ = 0x0
+                0x0000000000400000                __ImageBase = 0x400000
+                0x0000000000001000                __section_alignment__ = 0x1000
+                0x0000000000000200                __file_alignment__ = 0x200
+                0x0000000000000004                __major_os_version__ = 0x4
+                0x0000000000000000                __minor_os_version__ = 0x0
+                0x0000000000000000                __major_image_version__ = 0x0
+                0x0000000000000000                __minor_image_version__ = 0x0
+                0x0000000000000005                __major_subsystem_version__ = 0x5
+                0x0000000000000002                __minor_subsystem_version__ = 0x2
+                0x0000000000000003                __subsystem__ = 0x3
+                0x0000000000200000                __size_of_stack_reserve__ = 0x200000
+                0x0000000000001000                __size_of_stack_commit__ = 0x1000
+                0x0000000000100000                __size_of_heap_reserve__ = 0x100000
+                0x0000000000001000                __size_of_heap_commit__ = 0x1000
+                0x0000000000000000                __loader_flags__ = 0x0
+                0x0000000000000000                __dll_characteristics__ = 0x0
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtbegin.o
+LOAD hello64.o
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc_eh.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmoldname.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libadvapi32.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libshell32.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libuser32.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc_eh.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmoldname.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a
+LOAD /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+                0x00000000000002f0                . = SIZEOF_HEADERS
+                0x0000000000001000                . = ALIGN (__section_alignment__)
+
+.text           0x0000000000401000     0x1e00
+ *(SORT_NONE(.init))
+ *(.text)
+ .text          0x0000000000401000      0x540 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004014c0                WinMainCRTStartup
+                0x00000000004014f0                mainCRTStartup
+                0x0000000000401520                atexit
+ .text          0x0000000000401540       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtbegin.o
+                0x0000000000401540                __gcc_register_frame
+                0x0000000000401550                __gcc_deregister_frame
+ .text          0x0000000000401560        0x0 hello64.o
+ .text          0x0000000000401560       0xd0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+                0x0000000000401560                __do_global_dtors
+                0x00000000004015a0                __do_global_ctors
+                0x0000000000401610                __main
+ .text          0x0000000000401630        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .text          0x0000000000401630        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .text          0x0000000000401630       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .text          0x0000000000401640       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+                0x0000000000401640                _setargv
+ .text          0x0000000000401650      0x1e0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+                0x0000000000401650                __security_init_cookie
+                0x0000000000401730                __report_gsfailure
+ .text          0x0000000000401830        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .text          0x0000000000401830       0xd0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000000401860                __dyn_tls_init
+                0x00000000004018f0                __tlregdtor
+ .text          0x0000000000401900        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .text          0x0000000000401900      0x100 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+                0x0000000000401900                _matherr
+ .text          0x0000000000401a00       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+                0x0000000000401a00                _fpreset
+                0x0000000000401a00                fpreset
+ .text          0x0000000000401a10        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .text          0x0000000000401a10      0x570 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+                0x0000000000401c90                _pei386_runtime_relocator
+ .text          0x0000000000401f80       0x60 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+                0x0000000000401f80                __mingw_raise_matherr
+                0x0000000000401fd0                __mingw_setusermatherr
+ .text          0x0000000000401fe0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .text          0x0000000000401fe0      0x470 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+                0x0000000000401fe0                __mingw_SEH_error_handler
+                0x00000000004021a0                __mingw_init_ehandler
+                0x00000000004022a0                _gnu_exception_handler
+ .text          0x0000000000402450      0x260 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+                0x00000000004024c0                ___w64_mingwthr_add_key_dtor
+                0x0000000000402540                ___w64_mingwthr_remove_key_dtor
+                0x00000000004025d0                __mingw_TLScallback
+ .text          0x00000000004026b0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .text          0x00000000004026b0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .text          0x00000000004026b0      0x3e0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+                0x00000000004026d0                _ValidateImageBase
+                0x00000000004026f0                _FindPESection
+                0x0000000000402740                _FindPESectionByName
+                0x00000000004027e0                __mingw_GetSectionForAddress
+                0x0000000000402870                __mingw_GetSectionCount
+                0x00000000004028a0                _FindPESectionExec
+                0x0000000000402910                _GetPEImageBase
+                0x0000000000402940                _IsNonwritableInCurrentImage
+                0x00000000004029d0                __mingw_enum_import_library_names
+ .text          0x0000000000402a90       0x40 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_chkstk_ms.o)
+                0x0000000000402a90                ___chkstk_ms
+ .text          0x0000000000402ad0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_ctors.o)
+ .text          0x0000000000402ad0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .text          0x0000000000402ad0        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+                0x0000000000402ad0                vfprintf
+ .text          0x0000000000402ad8        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+                0x0000000000402ad8                strncmp
+ .text          0x0000000000402ae0        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+                0x0000000000402ae0                strlen
+ .text          0x0000000000402ae8        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+                0x0000000000402ae8                signal
+ .text          0x0000000000402af0        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+                0x0000000000402af0                puts
+ .text          0x0000000000402af8        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+                0x0000000000402af8                memcpy
+ .text          0x0000000000402b00        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+                0x0000000000402b00                malloc
+ .text          0x0000000000402b08        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+                0x0000000000402b08                fwrite
+ .text          0x0000000000402b10        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+                0x0000000000402b10                free
+ .text          0x0000000000402b18        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+                0x0000000000402b18                fprintf
+ .text          0x0000000000402b20        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+                0x0000000000402b20                exit
+ .text          0x0000000000402b28        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+                0x0000000000402b28                calloc
+ .text          0x0000000000402b30        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+                0x0000000000402b30                abort
+ .text          0x0000000000402b38        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+                0x0000000000402b38                _onexit
+ .text          0x0000000000402b40        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+                0x0000000000402b40                _initterm
+ .text          0x0000000000402b48        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+                0x0000000000402b48                _cexit
+ .text          0x0000000000402b50        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+                0x0000000000402b50                _amsg_exit
+ .text          0x0000000000402b58        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+                0x0000000000402b58                __setusermatherr
+ .text          0x0000000000402b60        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+                0x0000000000402b60                __set_app_type
+ .text          0x0000000000402b68        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+                0x0000000000402b68                __lconv_init
+ .text          0x0000000000402b70        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+ .text          0x0000000000402b70        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+                0x0000000000402b70                __getmainargs
+ .text          0x0000000000402b78        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+                0x0000000000402b78                __C_specific_handler
+ .text          0x0000000000402b80       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+                0x0000000000402b80                __acrt_iob_func
+ .text          0x0000000000402ba0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+                0x0000000000402ba0                _get_invalid_parameter_handler
+                0x0000000000402bb0                _set_invalid_parameter_handler
+ .text          0x0000000000402bc0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+                0x0000000000402bc0                __p__acmdln
+ .text          0x0000000000402bd0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+                0x0000000000402bd0                __p__fmode
+ .text          0x0000000000402be0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o)
+ .text          0x0000000000402be0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+ .text          0x0000000000402be0        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+                0x0000000000402be0                __iob_func
+ *fill*         0x0000000000402be8        0x8 
+ .text          0x0000000000402bf0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-ost.o)
+ .text          0x0000000000402bf0        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+                0x0000000000402bf0                VirtualQuery
+ .text          0x0000000000402bf8        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+                0x0000000000402bf8                VirtualProtect
+ .text          0x0000000000402c00        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+                0x0000000000402c00                UnhandledExceptionFilter
+ .text          0x0000000000402c08        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+                0x0000000000402c08                TlsGetValue
+ .text          0x0000000000402c10        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+                0x0000000000402c10                TerminateProcess
+ .text          0x0000000000402c18        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+                0x0000000000402c18                Sleep
+ .text          0x0000000000402c20        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+                0x0000000000402c20                SetUnhandledExceptionFilter
+ .text          0x0000000000402c28        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+                0x0000000000402c28                RtlVirtualUnwind
+ .text          0x0000000000402c30        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+                0x0000000000402c30                RtlLookupFunctionEntry
+ .text          0x0000000000402c38        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+                0x0000000000402c38                RtlCaptureContext
+ .text          0x0000000000402c40        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+                0x0000000000402c40                RtlAddFunctionTable
+ .text          0x0000000000402c48        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+                0x0000000000402c48                QueryPerformanceCounter
+ .text          0x0000000000402c50        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+                0x0000000000402c50                LeaveCriticalSection
+ .text          0x0000000000402c58        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+                0x0000000000402c58                InitializeCriticalSection
+ .text          0x0000000000402c60        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+                0x0000000000402c60                GetTickCount
+ .text          0x0000000000402c68        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+                0x0000000000402c68                GetSystemTimeAsFileTime
+ .text          0x0000000000402c70        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+                0x0000000000402c70                GetStartupInfoA
+ .text          0x0000000000402c78        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+                0x0000000000402c78                GetLastError
+ .text          0x0000000000402c80        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+                0x0000000000402c80                GetCurrentThreadId
+ .text          0x0000000000402c88        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+                0x0000000000402c88                GetCurrentProcessId
+ .text          0x0000000000402c90        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+                0x0000000000402c90                GetCurrentProcess
+ .text          0x0000000000402c98        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+                0x0000000000402c98                EnterCriticalSection
+ .text          0x0000000000402ca0        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+                0x0000000000402ca0                DeleteCriticalSection
+ *fill*         0x0000000000402ca8        0x8 
+ .text          0x0000000000402cb0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o)
+ .text          0x0000000000402cb0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32t.o)
+ .text          0x0000000000402cb0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+ .text          0x0000000000402cb0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+ *(SORT_BY_NAME(.text$*))
+ *(.text.*)
+ .text.startup  0x0000000000402cb0       0x20 hello64.o
+                0x0000000000402cb0                main
+ .text.startup  0x0000000000402cd0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+ *(.gnu.linkonce.t.*)
+ *(.glue_7t)
+ *(.glue_7)
+                0x0000000000402ce0                . = ALIGN (0x8)
+                0x0000000000402ce0                ___CTOR_LIST__ = .
+                0x0000000000402ce0                __CTOR_LIST__ = .
+                0x0000000000402ce0        0x4 LONG 0xffffffffffffffff
+                0x0000000000402ce4        0x4 LONG 0xffffffffffffffff
+ *(.ctors)
+ *(.ctor)
+ *(SORT_BY_NAME(.ctors.*))
+ .ctors.65535   0x0000000000402ce8        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+                0x0000000000402cf0        0x4 LONG 0x0
+                0x0000000000402cf4        0x4 LONG 0x0
+                0x0000000000402cf8                ___DTOR_LIST__ = .
+                0x0000000000402cf8                __DTOR_LIST__ = .
+                0x0000000000402cf8        0x4 LONG 0xffffffffffffffff
+                0x0000000000402cfc        0x4 LONG 0xffffffffffffffff
+ *(.dtors)
+ *(.dtor)
+ *(SORT_BY_NAME(.dtors.*))
+                0x0000000000402d00        0x4 LONG 0x0
+                0x0000000000402d04        0x4 LONG 0x0
+ *(SORT_NONE(.fini))
+ *(.gcc_exc)
+                [!provide]                        PROVIDE (etext = .)
+ *(.gcc_except_table)
+
+.data           0x0000000000403000      0x200
+                0x0000000000403000                __data_start__ = .
+ *(.data)
+ .data          0x0000000000403000       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000403000                __mingw_winmain_nShowCmd
+ .data          0x0000000000403010        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtbegin.o
+ .data          0x0000000000403010        0x0 hello64.o
+ .data          0x0000000000403010       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .data          0x0000000000403020       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+                0x0000000000403020                __native_vcclrit_reason
+                0x0000000000403024                __native_dllmain_reason
+ .data          0x0000000000403030        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .data          0x0000000000403030       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+                0x0000000000403030                _charmax
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .data          0x0000000000403040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .data          0x0000000000403040       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+                0x0000000000403040                _CRT_MT
+ .data          0x0000000000403050        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .data          0x0000000000403050        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .data          0x0000000000403050        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_chkstk_ms.o)
+ .data          0x0000000000403050        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_ctors.o)
+ .data          0x0000000000403050       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+                0x0000000000403050                _MINGW_INSTALL_DEBUG_MATHERR
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+ .data          0x0000000000403060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+ .data          0x0000000000403060       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+                0x0000000000403060                __imp___acrt_iob_func
+ .data          0x0000000000403070       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+                0x0000000000403070                __imp__get_invalid_parameter_handler
+                0x0000000000403078                __imp__set_invalid_parameter_handler
+ .data          0x0000000000403080       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+                0x0000000000403080                __imp___p__acmdln
+ .data          0x0000000000403090       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+                0x0000000000403090                __imp___p__fmode
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-ost.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32t.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+ .data          0x00000000004030a0        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+ *(.data2)
+ *(SORT_BY_NAME(.data$*))
+ .data$__security_cookie
+                0x00000000004030a0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+                0x00000000004030a0                __security_cookie
+ .data$__security_cookie_complement
+                0x00000000004030b0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+                0x00000000004030b0                __security_cookie_complement
+ *(.jcr)
+                0x00000000004030c0                __data_end__ = .
+ *(.data_cygwin_nocopy)
+
+.rdata          0x0000000000404000      0xa00
+ *(.rdata)
+ .rdata         0x0000000000404000       0x10 hello64.o
+ .rdata         0x0000000000404010       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .rdata         0x0000000000404020       0x60 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000000404020                __dyn_tls_init_callback
+                0x0000000000404040                _tls_used
+ .rdata         0x0000000000404080      0x140 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .rdata         0x00000000004041c0      0x110 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .rdata         0x00000000004042d0       0x60 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ *(SORT_BY_NAME(.rdata$*))
+ .rdata$.refptr._CRT_MT
+                0x0000000000404330       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000000404330                .refptr._CRT_MT
+ .rdata$.refptr._MINGW_INSTALL_DEBUG_MATHERR
+                0x0000000000404340       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404340                .refptr._MINGW_INSTALL_DEBUG_MATHERR
+ .rdata$.refptr.__CTOR_LIST__
+                0x0000000000404350       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+                0x0000000000404350                .refptr.__CTOR_LIST__
+ .rdata$.refptr.__RUNTIME_PSEUDO_RELOC_LIST_END__
+                0x0000000000404360       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+                0x0000000000404360                .refptr.__RUNTIME_PSEUDO_RELOC_LIST_END__
+ .rdata$.refptr.__RUNTIME_PSEUDO_RELOC_LIST__
+                0x0000000000404370       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+                0x0000000000404370                .refptr.__RUNTIME_PSEUDO_RELOC_LIST__
+ .rdata$.refptr.__dyn_tls_init_callback
+                0x0000000000404380       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404380                .refptr.__dyn_tls_init_callback
+ .rdata$.refptr.__image_base__
+                0x0000000000404390       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404390                .refptr.__image_base__
+ .rdata$.refptr.__imp___initenv
+                0x00000000004043a0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004043a0                .refptr.__imp___initenv
+ .rdata$.refptr.__imp__acmdln
+                0x00000000004043b0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+                0x00000000004043b0                .refptr.__imp__acmdln
+ .rdata$.refptr.__imp__fmode
+                0x00000000004043c0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+                0x00000000004043c0                .refptr.__imp__fmode
+ .rdata$.refptr.__mingw_oldexcpt_handler
+                0x00000000004043d0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004043d0                .refptr.__mingw_oldexcpt_handler
+ .rdata$.refptr.__native_startup_lock
+                0x00000000004043e0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004043e0                .refptr.__native_startup_lock
+ .rdata$.refptr.__native_startup_state
+                0x00000000004043f0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004043f0                .refptr.__native_startup_state
+ .rdata$.refptr.__xc_a
+                0x0000000000404400       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404400                .refptr.__xc_a
+ .rdata$.refptr.__xc_z
+                0x0000000000404410       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404410                .refptr.__xc_z
+ .rdata$.refptr.__xi_a
+                0x0000000000404420       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404420                .refptr.__xi_a
+ .rdata$.refptr.__xi_z
+                0x0000000000404430       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404430                .refptr.__xi_z
+ .rdata$.refptr._dowildcard
+                0x0000000000404440       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404440                .refptr._dowildcard
+ .rdata$.refptr._fmode
+                0x0000000000404450       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404450                .refptr._fmode
+ .rdata$.refptr._gnu_exception_handler
+                0x0000000000404460       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404460                .refptr._gnu_exception_handler
+ .rdata$.refptr._matherr
+                0x0000000000404470       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404470                .refptr._matherr
+ .rdata$.refptr._newmode
+                0x0000000000404480       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404480                .refptr._newmode
+ .rdata$.refptr.mingw_app_type
+                0x0000000000404490       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000404490                .refptr.mingw_app_type
+ .rdata$.refptr.mingw_initcharmax
+                0x00000000004044a0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004044a0                .refptr.mingw_initcharmax
+ .rdata$.refptr.mingw_initltsdrot_force
+                0x00000000004044b0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004044b0                .refptr.mingw_initltsdrot_force
+ .rdata$.refptr.mingw_initltsdyn_force
+                0x00000000004044c0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004044c0                .refptr.mingw_initltsdyn_force
+ .rdata$.refptr.mingw_initltssuo_force
+                0x00000000004044d0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x00000000004044d0                .refptr.mingw_initltssuo_force
+ .rdata$zzz     0x00000000004044e0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .rdata$zzz     0x0000000000404500       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtbegin.o
+ .rdata$zzz     0x0000000000404520       0x20 hello64.o
+ .rdata$zzz     0x0000000000404540       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .rdata$zzz     0x0000000000404560       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .rdata$zzz     0x0000000000404580       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .rdata$zzz     0x00000000004045a0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .rdata$zzz     0x00000000004045c0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .rdata$zzz     0x00000000004045e0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .rdata$zzz     0x0000000000404600       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .rdata$zzz     0x0000000000404620       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .rdata$zzz     0x0000000000404640       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .rdata$zzz     0x0000000000404660       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .rdata$zzz     0x0000000000404680       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .rdata$zzz     0x00000000004046a0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .rdata$zzz     0x00000000004046c0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .rdata$zzz     0x00000000004046e0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .rdata$zzz     0x0000000000404700       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .rdata$zzz     0x0000000000404720       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .rdata$zzz     0x0000000000404740       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .rdata$zzz     0x0000000000404760       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .rdata$zzz     0x0000000000404780       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .rdata$zzz     0x00000000004047a0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .rdata$zzz     0x00000000004047c0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_ctors.o)
+ .rdata$zzz     0x00000000004047e0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .rdata$zzz     0x0000000000404800       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .rdata$zzz     0x0000000000404820       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .rdata$zzz     0x0000000000404840       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .rdata$zzz     0x0000000000404860       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .rdata$zzz     0x0000000000404880       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+                0x00000000004048a0                . = ALIGN (0x4)
+                0x00000000004048a0                __rt_psrelocs_start = .
+ *(.rdata_runtime_pseudo_reloc)
+                0x00000000004048a0                __rt_psrelocs_end = .
+                0x0000000000000000                __rt_psrelocs_size = (__rt_psrelocs_end - __rt_psrelocs_start)
+                0x00000000004048a0                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00000000004048a0                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00000000004048a0                ___RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+                0x00000000004048a0                __RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+
+.eh_frame
+ *(.eh_frame*)
+
+.pdata          0x0000000000405000      0x400
+ *(.pdata*)
+ .pdata         0x0000000000405000       0x54 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .pdata         0x0000000000405054       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtbegin.o
+ .pdata.startup
+                0x000000000040506c        0xc hello64.o
+ .pdata         0x0000000000405078       0x24 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .pdata         0x000000000040509c        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .pdata         0x00000000004050a8        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .pdata         0x00000000004050b4       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .pdata         0x00000000004050cc       0x24 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .pdata         0x00000000004050f0        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .pdata         0x00000000004050fc        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .pdata         0x0000000000405108       0x24 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .pdata         0x000000000040512c       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .pdata         0x0000000000405144       0x24 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .pdata         0x0000000000405168       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .pdata         0x0000000000405198       0x78 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .pdata         0x0000000000405210        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .pdata         0x000000000040521c       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .pdata         0x0000000000405234        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .pdata         0x0000000000405240        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .pdata.startup
+                0x000000000040524c        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+
+.xdata          0x0000000000406000      0x200
+ *(.xdata*)
+ .xdata         0x0000000000406000       0x70 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .xdata         0x0000000000406070        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtbegin.o
+ .xdata.startup
+                0x0000000000406078        0x8 hello64.o
+ .xdata         0x0000000000406080       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .xdata         0x0000000000406098        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+ .xdata         0x000000000040609c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .xdata         0x00000000004060a0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .xdata         0x00000000004060c0       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .xdata         0x00000000004060d8       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .xdata         0x00000000004060f0        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .xdata         0x00000000004060f4       0x34 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .xdata         0x0000000000406128        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .xdata         0x0000000000406134       0x20 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .xdata         0x0000000000406154       0x2c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .xdata         0x0000000000406180       0x48 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .xdata         0x00000000004061c8        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .xdata         0x00000000004061d0        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .xdata         0x00000000004061d8        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .xdata         0x00000000004061dc        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .xdata.startup
+                0x00000000004061e0        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+
+.bss            0x0000000000407000      0x980
+                0x0000000000407000                __bss_start__ = .
+ *(.bss)
+ .bss           0x0000000000407000       0x30 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000407000                __mingw_module_is_dll
+ .bss           0x0000000000407030        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtbegin.o
+ .bss           0x0000000000407030        0x0 hello64.o
+ .bss           0x0000000000407030       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .bss           0x0000000000407040        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .bss           0x0000000000407040       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+                0x0000000000407040                _dowildcard
+ .bss           0x0000000000407050       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+                0x0000000000407050                mingw_initcharmax
+ .bss           0x0000000000407060        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .bss           0x0000000000407060      0x580 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gs_support.o)
+ .bss           0x00000000004075e0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+                0x00000000004075e0                _newmode
+ .bss           0x00000000004075f0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x00000000004075f0                mingw_initltssuo_force
+                0x00000000004075f4                mingw_initltsdyn_force
+                0x00000000004075f8                mingw_initltsdrot_force
+                0x00000000004075fc                _tls_index
+ .bss           0x0000000000407600        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .bss           0x0000000000407600        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .bss           0x0000000000407600        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .bss           0x0000000000407600       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+                0x0000000000407600                mingw_app_type
+ .bss           0x0000000000407610       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .bss           0x0000000000407620       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .bss           0x0000000000407630       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+                0x0000000000407630                _fmode
+ .bss           0x0000000000407640      0x2a0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+                0x0000000000407640                __mingw_oldexcpt_handler
+ .bss           0x00000000004078e0       0x60 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .bss           0x0000000000407940        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .bss           0x0000000000407940       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_chkstk_ms.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_ctors.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+ .bss           0x0000000000407950        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-acrt_iob_func.o)
+ .bss           0x0000000000407950       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-invalid_parameter_handler.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__acmdln.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_os_a-__p__fmode.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-ost.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32t.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+ .bss           0x0000000000407960        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/crtend.o
+ *(COMMON)
+ COMMON         0x0000000000407960       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000407960                __mingw_winmain_lpCmdLine
+                0x0000000000407968                __mingw_winmain_hInstance
+ COMMON         0x0000000000407970       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+                0x0000000000407970                __native_startup_state
+                0x0000000000407978                __native_startup_lock
+ COMMON         0x0000000000407980        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/libgcc.a(_ctors.o)
+                0x0000000000407980                __bss_end__ = .
+
+.edata
+ *(.edata)
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+ *(.note.GNU-stack)
+ *(.gnu.lto_*)
+
+.idata          0x0000000000408000      0x800
+ SORT_BY_NAME(*)(.idata$2)
+ .idata$2       0x0000000000408000       0x14 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o)
+                0x0000000000408000                _head_lib64_libkernel32_a
+ .idata$2       0x0000000000408014       0x14 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o)
+                0x0000000000408014                _head_lib64_libmsvcrt_os_a
+ SORT_BY_NAME(*)(.idata$3)
+                0x0000000000408028        0x4 LONG 0x0
+                0x000000000040802c        0x4 LONG 0x0
+                0x0000000000408030        0x4 LONG 0x0
+                0x0000000000408034        0x4 LONG 0x0
+                0x0000000000408038        0x4 LONG 0x0
+ SORT_BY_NAME(*)(.idata$4)
+ .idata$4       0x000000000040803c        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o)
+ .idata$4       0x000000000040803c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+ .idata$4       0x0000000000408044        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+ .idata$4       0x000000000040804c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+ .idata$4       0x0000000000408054        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+ .idata$4       0x000000000040805c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+ .idata$4       0x0000000000408064        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+ .idata$4       0x000000000040806c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+ .idata$4       0x0000000000408074        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+ .idata$4       0x000000000040807c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+ .idata$4       0x0000000000408084        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+ .idata$4       0x000000000040808c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+ .idata$4       0x0000000000408094        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+ .idata$4       0x000000000040809c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+ .idata$4       0x00000000004080a4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+ .idata$4       0x00000000004080ac        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+ .idata$4       0x00000000004080b4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+ .idata$4       0x00000000004080bc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+ .idata$4       0x00000000004080c4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+ .idata$4       0x00000000004080cc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+ .idata$4       0x00000000004080d4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+ .idata$4       0x00000000004080dc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+ .idata$4       0x00000000004080e4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+ .idata$4       0x00000000004080ec        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+ .idata$4       0x00000000004080f4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32t.o)
+ .idata$4       0x00000000004080fc        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o)
+ .idata$4       0x00000000004080fc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+ .idata$4       0x0000000000408104        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+ .idata$4       0x000000000040810c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+ .idata$4       0x0000000000408114        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+ .idata$4       0x000000000040811c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+ .idata$4       0x0000000000408124        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+ .idata$4       0x000000000040812c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+ .idata$4       0x0000000000408134        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+ .idata$4       0x000000000040813c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+ .idata$4       0x0000000000408144        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+ .idata$4       0x000000000040814c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+ .idata$4       0x0000000000408154        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+ .idata$4       0x000000000040815c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+ .idata$4       0x0000000000408164        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+ .idata$4       0x000000000040816c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+ .idata$4       0x0000000000408174        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+ .idata$4       0x000000000040817c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+ .idata$4       0x0000000000408184        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+ .idata$4       0x000000000040818c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+ .idata$4       0x0000000000408194        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+ .idata$4       0x000000000040819c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+ .idata$4       0x00000000004081a4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+ .idata$4       0x00000000004081ac        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+ .idata$4       0x00000000004081b4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+ .idata$4       0x00000000004081bc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+ .idata$4       0x00000000004081c4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+ .idata$4       0x00000000004081cc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-ost.o)
+                0x00000000004081d4                __IAT_start__ = .
+ SORT_BY_NAME(*)(.idata$5)
+ .idata$5       0x00000000004081d4        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32h.o)
+ .idata$5       0x00000000004081d4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+                0x00000000004081d4                __imp_DeleteCriticalSection
+ .idata$5       0x00000000004081dc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+                0x00000000004081dc                __imp_EnterCriticalSection
+ .idata$5       0x00000000004081e4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+                0x00000000004081e4                __imp_GetCurrentProcess
+ .idata$5       0x00000000004081ec        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+                0x00000000004081ec                __imp_GetCurrentProcessId
+ .idata$5       0x00000000004081f4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+                0x00000000004081f4                __imp_GetCurrentThreadId
+ .idata$5       0x00000000004081fc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+                0x00000000004081fc                __imp_GetLastError
+ .idata$5       0x0000000000408204        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+                0x0000000000408204                __imp_GetStartupInfoA
+ .idata$5       0x000000000040820c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+                0x000000000040820c                __imp_GetSystemTimeAsFileTime
+ .idata$5       0x0000000000408214        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+                0x0000000000408214                __imp_GetTickCount
+ .idata$5       0x000000000040821c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+                0x000000000040821c                __imp_InitializeCriticalSection
+ .idata$5       0x0000000000408224        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+                0x0000000000408224                __imp_LeaveCriticalSection
+ .idata$5       0x000000000040822c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+                0x000000000040822c                __imp_QueryPerformanceCounter
+ .idata$5       0x0000000000408234        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+                0x0000000000408234                __imp_RtlAddFunctionTable
+ .idata$5       0x000000000040823c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+                0x000000000040823c                __imp_RtlCaptureContext
+ .idata$5       0x0000000000408244        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+                0x0000000000408244                __imp_RtlLookupFunctionEntry
+ .idata$5       0x000000000040824c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+                0x000000000040824c                __imp_RtlVirtualUnwind
+ .idata$5       0x0000000000408254        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+                0x0000000000408254                __imp_SetUnhandledExceptionFilter
+ .idata$5       0x000000000040825c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+                0x000000000040825c                __imp_Sleep
+ .idata$5       0x0000000000408264        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+                0x0000000000408264                __imp_TerminateProcess
+ .idata$5       0x000000000040826c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+                0x000000000040826c                __imp_TlsGetValue
+ .idata$5       0x0000000000408274        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+                0x0000000000408274                __imp_UnhandledExceptionFilter
+ .idata$5       0x000000000040827c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+                0x000000000040827c                __imp_VirtualProtect
+ .idata$5       0x0000000000408284        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+                0x0000000000408284                __imp_VirtualQuery
+ .idata$5       0x000000000040828c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32t.o)
+ .idata$5       0x0000000000408294        0x0 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-osh.o)
+ .idata$5       0x0000000000408294        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+                0x0000000000408294                __imp___C_specific_handler
+ .idata$5       0x000000000040829c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+                0x000000000040829c                __imp___getmainargs
+ .idata$5       0x00000000004082a4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+                0x00000000004082a4                __imp___initenv
+ .idata$5       0x00000000004082ac        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+                0x00000000004082ac                __imp___iob_func
+ .idata$5       0x00000000004082b4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+                0x00000000004082b4                __imp___lconv_init
+ .idata$5       0x00000000004082bc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+                0x00000000004082bc                __imp___set_app_type
+ .idata$5       0x00000000004082c4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+                0x00000000004082c4                __imp___setusermatherr
+ .idata$5       0x00000000004082cc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+                0x00000000004082cc                __imp__acmdln
+ .idata$5       0x00000000004082d4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+                0x00000000004082d4                __imp__amsg_exit
+ .idata$5       0x00000000004082dc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+                0x00000000004082dc                __imp__cexit
+ .idata$5       0x00000000004082e4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+                0x00000000004082e4                __imp__fmode
+ .idata$5       0x00000000004082ec        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+                0x00000000004082ec                __imp__initterm
+ .idata$5       0x00000000004082f4        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+                0x00000000004082f4                __imp__onexit
+ .idata$5       0x00000000004082fc        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+                0x00000000004082fc                __imp_abort
+ .idata$5       0x0000000000408304        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+                0x0000000000408304                __imp_calloc
+ .idata$5       0x000000000040830c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+                0x000000000040830c                __imp_exit
+ .idata$5       0x0000000000408314        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+                0x0000000000408314                __imp_fprintf
+ .idata$5       0x000000000040831c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+                0x000000000040831c                __imp_free
+ .idata$5       0x0000000000408324        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+                0x0000000000408324                __imp_fwrite
+ .idata$5       0x000000000040832c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+                0x000000000040832c                __imp_malloc
+ .idata$5       0x0000000000408334        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+                0x0000000000408334                __imp_memcpy
+ .idata$5       0x000000000040833c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+                0x000000000040833c                __imp_puts
+ .idata$5       0x0000000000408344        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+                0x0000000000408344                __imp_signal
+ .idata$5       0x000000000040834c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+                0x000000000040834c                __imp_strlen
+ .idata$5       0x0000000000408354        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+                0x0000000000408354                __imp_strncmp
+ .idata$5       0x000000000040835c        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+                0x000000000040835c                __imp_vfprintf
+ .idata$5       0x0000000000408364        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-ost.o)
+                0x000000000040836c                __IAT_end__ = .
+ SORT_BY_NAME(*)(.idata$6)
+ .idata$6       0x000000000040836c       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+ .idata$6       0x0000000000408384       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+ .idata$6       0x000000000040839c       0x14 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+ .idata$6       0x00000000004083b0       0x16 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+ .idata$6       0x00000000004083c6       0x16 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+ .idata$6       0x00000000004083dc       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+ .idata$6       0x00000000004083ec       0x12 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+ .idata$6       0x00000000004083fe       0x1a /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+ .idata$6       0x0000000000408418       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+ .idata$6       0x0000000000408428       0x1c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+ .idata$6       0x0000000000408444       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+ .idata$6       0x000000000040845c       0x1a /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+ .idata$6       0x0000000000408476       0x16 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+ .idata$6       0x000000000040848c       0x14 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+ .idata$6       0x00000000004084a0       0x1a /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+ .idata$6       0x00000000004084ba       0x14 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+ .idata$6       0x00000000004084ce       0x1e /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+ .idata$6       0x00000000004084ec        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+ .idata$6       0x00000000004084f4       0x14 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+ .idata$6       0x0000000000408508        0xe /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+ .idata$6       0x0000000000408516       0x1c /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+ .idata$6       0x0000000000408532       0x12 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+ .idata$6       0x0000000000408544       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+ .idata$6       0x0000000000408554       0x18 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+ .idata$6       0x000000000040856c       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+ .idata$6       0x000000000040857c        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+ .idata$6       0x0000000000408588        0xe /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+ .idata$6       0x0000000000408596       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+ .idata$6       0x00000000004085a6       0x12 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+ .idata$6       0x00000000004085b8       0x14 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+ .idata$6       0x00000000004085cc        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+ .idata$6       0x00000000004085d6        0xe /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+ .idata$6       0x00000000004085e4        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+ .idata$6       0x00000000004085ee        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+ .idata$6       0x00000000004085f8        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+ .idata$6       0x0000000000408604        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+ .idata$6       0x000000000040860e        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+ .idata$6       0x0000000000408616        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+ .idata$6       0x0000000000408620        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+ .idata$6       0x0000000000408628        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+ .idata$6       0x0000000000408632        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+ .idata$6       0x000000000040863a        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+ .idata$6       0x0000000000408644        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+ .idata$6       0x000000000040864e        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+ .idata$6       0x0000000000408658        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+ .idata$6       0x0000000000408660        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+ .idata$6       0x000000000040866a        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+ .idata$6       0x0000000000408674        0xa /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+ .idata$6       0x000000000040867e        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+ SORT_BY_NAME(*)(.idata$7)
+ *fill*         0x000000000040868a        0x2 
+ .idata$7       0x000000000040868c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00282.o)
+ .idata$7       0x0000000000408690        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00318.o)
+ .idata$7       0x0000000000408694        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00551.o)
+ .idata$7       0x0000000000408698        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00552.o)
+ .idata$7       0x000000000040869c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00556.o)
+ .idata$7       0x00000000004086a0        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00629.o)
+ .idata$7       0x00000000004086a4        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00742.o)
+ .idata$7       0x00000000004086a8        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00768.o)
+ .idata$7       0x00000000004086ac        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00798.o)
+ .idata$7       0x00000000004086b0        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00891.o)
+ .idata$7       0x00000000004086b4        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s00983.o)
+ .idata$7       0x00000000004086b8        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01130.o)
+ .idata$7       0x00000000004086bc        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01221.o)
+ .idata$7       0x00000000004086c0        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01222.o)
+ .idata$7       0x00000000004086c4        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01229.o)
+ .idata$7       0x00000000004086c8        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01236.o)
+ .idata$7       0x00000000004086cc        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01393.o)
+ .idata$7       0x00000000004086d0        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01409.o)
+ .idata$7       0x00000000004086d4        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01424.o)
+ .idata$7       0x00000000004086d8        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01444.o)
+ .idata$7       0x00000000004086dc        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01458.o)
+ .idata$7       0x00000000004086e0        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01491.o)
+ .idata$7       0x00000000004086e4        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32s01493.o)
+ .idata$7       0x00000000004086e8       0x10 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libkernel32.a(libkernel32t.o)
+                0x00000000004086e8                __lib64_libkernel32_a_iname
+ .idata$7       0x00000000004086f8        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00056.o)
+ .idata$7       0x00000000004086fc        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00082.o)
+ .idata$7       0x0000000000408700        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00083.o)
+ .idata$7       0x0000000000408704        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00084.o)
+ .idata$7       0x0000000000408708        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00091.o)
+ .idata$7       0x000000000040870c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00097.o)
+ .idata$7       0x0000000000408710        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00099.o)
+ .idata$7       0x0000000000408714        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00114.o)
+ .idata$7       0x0000000000408718        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00121.o)
+ .idata$7       0x000000000040871c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00139.o)
+ .idata$7       0x0000000000408720        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00221.o)
+ .idata$7       0x0000000000408724        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00286.o)
+ .idata$7       0x0000000000408728        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00554.o)
+ .idata$7       0x000000000040872c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00901.o)
+ .idata$7       0x0000000000408730        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00918.o)
+ .idata$7       0x0000000000408734        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00931.o)
+ .idata$7       0x0000000000408738        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00950.o)
+ .idata$7       0x000000000040873c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00957.o)
+ .idata$7       0x0000000000408740        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss00968.o)
+ .idata$7       0x0000000000408744        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01014.o)
+ .idata$7       0x0000000000408748        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01022.o)
+ .idata$7       0x000000000040874c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01035.o)
+ .idata$7       0x0000000000408750        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01052.o)
+ .idata$7       0x0000000000408754        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01073.o)
+ .idata$7       0x0000000000408758        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01076.o)
+ .idata$7       0x000000000040875c        0x4 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-oss01108.o)
+ .idata$7       0x0000000000408760        0xc /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(libmsvcrt-ost.o)
+                0x0000000000408760                __lib64_libmsvcrt_os_a_iname
+
+.CRT            0x0000000000409000      0x200
+                0x0000000000409000                ___crt_xc_start__ = .
+ *(SORT_BY_NAME(.CRT$XC*))
+ .CRT$XCA       0x0000000000409000        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+                0x0000000000409000                __xc_a
+ .CRT$XCAA      0x0000000000409008        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000409008                mingw_pcppinit
+ .CRT$XCZ       0x0000000000409010        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+                0x0000000000409010                __xc_z
+                0x0000000000409018                ___crt_xc_end__ = .
+                0x0000000000409018                ___crt_xi_start__ = .
+ *(SORT_BY_NAME(.CRT$XI*))
+ .CRT$XIA       0x0000000000409018        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+                0x0000000000409018                __xi_a
+ .CRT$XIAA      0x0000000000409020        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000000409020                mingw_pcinit
+ .CRT$XIC       0x0000000000409028        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-charmax.o)
+                0x0000000000409028                __mingw_pinit
+ .CRT$XIZ       0x0000000000409030        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+                0x0000000000409030                __xi_z
+                0x0000000000409038                ___crt_xi_end__ = .
+                0x0000000000409038                ___crt_xl_start__ = .
+ *(SORT_BY_NAME(.CRT$XL*))
+ .CRT$XLA       0x0000000000409038        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000000409038                __xl_a
+ .CRT$XLC       0x0000000000409040        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000000409040                __xl_c
+ .CRT$XLD       0x0000000000409048        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000000409048                __xl_d
+ .CRT$XLZ       0x0000000000409050        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000000409050                __xl_z
+                0x0000000000409058                ___crt_xp_start__ = .
+ *(SORT_BY_NAME(.CRT$XP*))
+                0x0000000000409058                ___crt_xp_end__ = .
+                0x0000000000409058                ___crt_xt_start__ = .
+ *(SORT_BY_NAME(.CRT$XT*))
+                0x0000000000409058                ___crt_xt_end__ = .
+ .CRT$XDA       0x0000000000409058        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .CRT$XDZ       0x0000000000409060        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+
+.tls            0x000000000040a000      0x200
+                0x000000000040a000                ___tls_start__ = .
+ *(.tls$AAA)
+ *(.tls)
+ .tls           0x000000000040a000        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x000000000040a000                _tls_start
+ *(.tls$)
+ *(SORT_BY_NAME(.tls$*))
+ .tls$ZZZ       0x000000000040a008        0x8 /usr/lib/gcc/x86_64-w64-mingw32/9.3-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x000000000040a008                _tls_end
+ *(.tls$ZZZ)
+                0x000000000040a010                ___tls_end__ = .
+
+.endjunk        0x000000000040b000        0x0
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x000000000040b000                __end__ = .
+
+.rsrc
+ *(.rsrc)
+ *(.rsrc$*)
+
+.reloc
+ *(.reloc)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.zdebug_aranges
+ *(.zdebug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.zdebug_pubnames
+ *(.zdebug_pubnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.zdebug_pubtypes
+ *(.zdebug_pubtypes)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.zdebug_info
+ *(.zdebug_info .zdebug.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.zdebug_abbrev
+ *(.zdebug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.zdebug_line
+ *(.zdebug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.zdebug_frame
+ *(.zdebug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.zdebug_str
+ *(.zdebug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.zdebug_loc
+ *(.zdebug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.zdebug_macinfo
+ *(.zdebug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.zdebug_weaknames
+ *(.zdebug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.zdebug_funcnames
+ *(.zdebug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.zdebug_typenames
+ *(.zdebug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.zdebug_varnames
+ *(.zdebug_varnames)
+
+.debug_macro
+ *(.debug_macro)
+
+.zdebug_macro
+ *(.zdebug_macro)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.zdebug_ranges
+ *(.zdebug_ranges)
+
+.debug_types
+ *(.debug_types .gnu.linkonce.wt.*)
+
+.zdebug_types
+ *(.zdebug_types .zdebug.gnu.linkonce.wt.*)
+
+.debug_gdb_scripts
+ *(.debug_gdb_scripts)
+
+.zdebug_gdb_scripts
+ *(.zdebug_gdb_scripts)
+OUTPUT(hello64.exe pei-x86-64)
