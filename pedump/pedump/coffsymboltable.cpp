@@ -63,7 +63,7 @@ COFFSymbol::GetTypeName()
 // how the "auxillary" record that follows it is interpreted
 //
 BOOL
-COFFSymbol::GetAuxSymbolAsString( PSTR pszBuffer, unsigned cbBuffer )
+COFFSymbol::GetAuxSymbolAsString( PTSTR pszBuffer, unsigned cbBuffer )
 {
 	if ( !m_pSymbolData || (0==m_pSymbolData->NumberOfAuxSymbols) )
 		return FALSE;
@@ -92,7 +92,7 @@ COFFSymbol::GetAuxSymbolAsString( PSTR pszBuffer, unsigned cbBuffer )
     else if ( (m_pSymbolData->StorageClass == IMAGE_SYM_CLASS_STATIC) )
     {
         wsprintf( pszBuffer,
-            "Section: %04X  Len: %05X  Relocs: %04X  LineNums: %04X",
+            _T("Section: %04X  Len: %05X  Relocs: %04X  LineNums: %04X"),
             auxSym->Section.Number, auxSym->Section.Length,
             auxSym->Section.NumberOfRelocations,
             auxSym->Section.NumberOfLinenumbers );
@@ -111,7 +111,7 @@ COFFSymbol::GetAuxSymbolAsString( PSTR pszBuffer, unsigned cbBuffer )
 //
 
 // The names of the first group of possible symbol table storage classes
-char * SzStorageClass1[] = {
+const char * SzStorageClass1[] = {
 "NULL","AUTOMATIC","EXTERNAL","STATIC","REGISTER","EXTERNAL_DEF","LABEL",
 "UNDEFINED_LABEL","MEMBER_OF_STRUCT","ARGUMENT","STRUCT_TAG",
 "MEMBER_OF_UNION","UNION_TAG","TYPE_DEFINITION","UNDEFINED_STATIC",
@@ -119,7 +119,7 @@ char * SzStorageClass1[] = {
 };
 
 // The names of the second group of possible symbol table storage classes
-char * SzStorageClass2[] = {
+const char * SzStorageClass2[] = {
 "BLOCK","FUNCTION","END_OF_STRUCT","FILE","SECTION","WEAK_EXTERNAL"
 };
 

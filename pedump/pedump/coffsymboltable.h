@@ -30,7 +30,7 @@ class COFFSymbol
 	PSTR  GetStorageClassName();
 	BOOL  GetNumberOfAuxSymbols()
 			{ return m_pSymbolData ? m_pSymbolData->NumberOfAuxSymbols : 0; }
-	BOOL  GetAuxSymbolAsString( PSTR pszBuffer, unsigned cbBuffer );
+	BOOL  GetAuxSymbolAsString( PTSTR pszBuffer, unsigned cbBuffer );
 	
 	friend class COFFSymbolTable;
 };

@@ -26,13 +26,13 @@ COFFSymbolTable * g_pCOFFSymbolTable = 0;
 typedef struct
 {
     WORD    flag;
-    PSTR    name;
+    const char *name;
 } WORD_FLAG_DESCRIPTIONS;
 
 typedef struct
 {
     DWORD   flag;
-    PSTR    name;
+    const char *name;
 } DWORD_FLAG_DESCRIPTIONS;
 
 // Bitfield values and names for the IMAGE_FILE_HEADER flags
@@ -121,7 +121,7 @@ DWORD_FLAG_DESCRIPTIONS LoaderFlags[] =
 #endif
 
 // Names of the data directory elements that are defined
-char *ImageDirectoryNames[] = {
+const char *ImageDirectoryNames[] = {
     "EXPORT", "IMPORT", "RESOURCE", "EXCEPTION", "SECURITY", "BASERELOC",
     "DEBUG", "COPYRIGHT", "GLOBALPTR", "TLS", "LOAD_CONFIG",
     "BOUND_IMPORT", "IAT",  // These two entries added for NT 3.51
@@ -136,7 +136,7 @@ char *ImageDirectoryNames[] = {
 void DumpOptionalHeader(PIMAGE_OPTIONAL_HEADER optionalHeader)
 {
     UINT width = 30;
-    char *s;
+    const char *s;
     UINT i;
     
     printf("Optional Header\n");
@@ -330,7 +330,7 @@ void DumpSectionTable(PIMAGE_SECTION_HEADER section,
                       BOOL IsEXE)
 {
     unsigned i, j;
-	PSTR pszAlign;
+	const char *pszAlign;
 
     printf("Section Table\n");
     
@@ -445,7 +445,7 @@ PIMAGE_SECTION_HEADER GetEnclosingSectionHeader(DWORD rva,
 
 PIMAGE_COFF_SYMBOLS_HEADER PCOFFDebugInfo = 0;
 
-char *SzDebugFormats[] = {
+const char *SzDebugFormats[] = {
 "UNKNOWN/BORLAND","COFF","CODEVIEW","FPO","MISC","EXCEPTION","FIXUP",
 "OMAP_TO_SRC", "OMAP_FROM_SRC"};
 

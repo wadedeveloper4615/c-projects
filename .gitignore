@@ -44,3 +44,7 @@ ntfsdump/ntfsdump/Win32/
 ntfsdump/ntfsdump/x64/
 ntfsdump/x64/
 ntfsdump/Win32/
+pedump old/
+pedump/.vs/
+pedump/pedump/Win32/
+pedump/pedump/x64/
