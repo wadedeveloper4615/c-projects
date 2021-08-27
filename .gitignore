@@ -38,3 +38,9 @@ fat32Format/fat32Format/Win32/
 fat32Format/fat32Format/x64/
 fat32Format/Win32/
 fat32Format/x64/
+ntfsdump old/
+ntfsdump/.vs/
+ntfsdump/ntfsdump/Win32/
+ntfsdump/ntfsdump/x64/
+ntfsdump/x64/
+ntfsdump/Win32/

@@ -1,3 +1,5 @@
+// ntfsdump.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
 #define WIN32_LEAN_AND_MEAN
 #include <cstdio>
 #include <Windows.h>
@@ -128,8 +130,8 @@ struct Run
 {
     LONGLONG    offset;
     LONGLONG    length;
-    Run(): offset(0LL), length(0LL) {}
-    Run(LONGLONG offset, LONGLONG length): offset(offset), length(length) {}
+    Run() : offset(0LL), length(0LL) {}
+    Run(LONGLONG offset, LONGLONG length) : offset(offset), length(length) {}
 };
 
 void seek(HANDLE h, ULONGLONG position)
@@ -143,16 +145,16 @@ void seek(HANDLE h, ULONGLONG position)
         throw "Failed to seek";
 }
 
-LPBYTE findAttribute(RecordHeader *record, DWORD recordSize, DWORD typeID,
-    function<bool(LPBYTE)> condition = [&](LPBYTE){return true;})
+LPBYTE findAttribute(RecordHeader* record, DWORD recordSize, DWORD typeID,
+    function<bool(LPBYTE)> condition = [&](LPBYTE) {return true; })
 {
     LPBYTE p = LPBYTE(record) + record->attributeOffset;
     while (true)
     {
-        if (p + sizeof (AttributeHeaderR) > LPBYTE(record) + recordSize)
+        if (p + sizeof(AttributeHeaderR) > LPBYTE(record) + recordSize)
             break;
 
-        AttributeHeaderR *header = (AttributeHeaderR *)p;
+        AttributeHeaderR* header = (AttributeHeaderR*)p;
         if (header->typeID == 0xffffffff)
             break;
 
@@ -166,7 +168,7 @@ LPBYTE findAttribute(RecordHeader *record, DWORD recordSize, DWORD typeID,
     return NULL;
 }
 
-vector<Run> parseRunList(BYTE *runList, DWORD runListSize, LONGLONG totalCluster)
+vector<Run> parseRunList(BYTE* runList, DWORD runListSize, LONGLONG totalCluster)
 {
     vector<Run> result;
 
@@ -178,12 +180,12 @@ vector<Run> parseRunList(BYTE *runList, DWORD runListSize, LONGLONG totalCluster
         if (p + 1 > runList + runListSize)
             throw _T("Invalid data run");
 
-        int lenLength = *p&0xf;
-        int lenOffset = *p>>4;
+        int lenLength = *p & 0xf;
+        int lenOffset = *p >> 4;
         p++;
 
         if (p + lenLength + lenOffset > runList + runListSize ||
-            lenLength >= 8  ||
+            lenLength >= 8 ||
             lenOffset >= 8)
             throw _T("Invalid data run");
 
@@ -191,18 +193,18 @@ vector<Run> parseRunList(BYTE *runList, DWORD runListSize, LONGLONG totalCluster
             throw _T("Sparse file is not supported");
 
         ULONGLONG length = 0;
-        for (int i=0; i<lenLength; i++)
-            length |= *p++ << (i*8);
+        for (int i = 0; i < lenLength; i++)
+            length |= *p++ << (i * 8);
 
         LONGLONG offsetDiff = 0;
-        for (int i=0; i<lenOffset; i++)
-            offsetDiff |= *p++ << (i*8);
-        if (offsetDiff >= (1LL<<((lenOffset*8)-1)))
-            offsetDiff -= 1LL<<(lenOffset*8);
+        for (int i = 0; i < lenOffset; i++)
+            offsetDiff |= *p++ << (i * 8);
+        if (offsetDiff >= (1LL << ((lenOffset * 8) - 1)))
+            offsetDiff -= 1LL << (lenOffset * 8);
 
         offset += offsetDiff;
 
-        if (offset<0 || totalCluster<=offset)
+        if (offset < 0 || totalCluster <= offset)
             throw _T("Invalid data run");
 
         result.push_back(Run(offset, length));
@@ -211,31 +213,31 @@ vector<Run> parseRunList(BYTE *runList, DWORD runListSize, LONGLONG totalCluster
     return result;
 }
 
-void fixRecord(BYTE *buffer, DWORD recordSize, DWORD sectorSize)
+void fixRecord(BYTE* buffer, DWORD recordSize, DWORD sectorSize)
 {
-    RecordHeader *header = (RecordHeader *)buffer;
+    RecordHeader* header = (RecordHeader*)buffer;
     LPWORD update = LPWORD(buffer + header->updateOffset);
 
     if (LPBYTE(update + header->updateNumber) > buffer + recordSize)
         throw _T("Update sequence number is invalid");
 
-    for (int i=1; i<header->updateNumber; i++)
-        *LPWORD(buffer + i*sectorSize - 2) = update[i];
+    for (int i = 1; i < header->updateNumber; i++)
+        *LPWORD(buffer + i * sectorSize - 2) = update[i];
 }
 
-void readRecord(HANDLE h, LONGLONG recordIndex, const vector<Run> &MFTRunList,
-    DWORD recordSize, DWORD clusterSize, DWORD sectorSize, BYTE *buffer)
+void readRecord(HANDLE h, LONGLONG recordIndex, const vector<Run>& MFTRunList,
+    DWORD recordSize, DWORD clusterSize, DWORD sectorSize, BYTE* buffer)
 {
     LONGLONG sectorOffset = recordIndex * recordSize / sectorSize;
     DWORD sectorNumber = recordSize / sectorSize;
 
-    for (DWORD sector=0; sector<sectorNumber; sector++)
+    for (DWORD sector = 0; sector < sectorNumber; sector++)
     {
         LONGLONG cluster = (sectorOffset + sector) / (clusterSize / sectorSize);
         LONGLONG vcn = 0LL;
         LONGLONG offset = -1LL;
 
-        for (const Run &run: MFTRunList)
+        for (const Run& run : MFTRunList)
         {
             if (cluster < vcn + run.length)
             {
@@ -250,7 +252,7 @@ void readRecord(HANDLE h, LONGLONG recordIndex, const vector<Run> &MFTRunList,
 
         seek(h, offset);
         DWORD read;
-        if (!ReadFile(h, buffer+sector*sectorSize, sectorSize, &read, NULL) ||
+        if (!ReadFile(h, buffer + sector * sectorSize, sectorSize, &read, NULL) ||
             read != sectorSize)
             throw _T("Failed to read file record");
     }
@@ -261,16 +263,16 @@ void readRecord(HANDLE h, LONGLONG recordIndex, const vector<Run> &MFTRunList,
 //  read a run list of typeID of recordIndex
 //  return stage of the attribute
 int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
-    const vector<Run> &MFTRunList, DWORD recordSize, DWORD clusterSize,
-    DWORD sectorSize, LONGLONG totalCluster, vector<Run> *runList,
-    LONGLONG *contentSize=NULL)
+    const vector<Run>& MFTRunList, DWORD recordSize, DWORD clusterSize,
+    DWORD sectorSize, LONGLONG totalCluster, vector<Run>* runList,
+    LONGLONG* contentSize = NULL)
 {
     vector<BYTE> record(recordSize);
     readRecord(h, recordIndex, MFTRunList, recordSize, clusterSize, sectorSize,
         &record[0]);
 
-    RecordHeader *recordHeader = (RecordHeader *)&record[0];
-    AttributeHeaderNR *attrListNR = (AttributeHeaderNR *)findAttribute(
+    RecordHeader* recordHeader = (RecordHeader*)&record[0];
+    AttributeHeaderNR* attrListNR = (AttributeHeaderNR*)findAttribute(
         recordHeader, recordSize, 0x20);    //  $Attribute_List
 
     int stage = 0;
@@ -278,7 +280,7 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
     if (attrListNR == NULL)
     {
         //  no attribute list
-        AttributeHeaderNR *headerNR = (AttributeHeaderNR *)findAttribute(
+        AttributeHeaderNR* headerNR = (AttributeHeaderNR*)findAttribute(
             recordHeader, recordSize, typeID);
         if (headerNR == NULL)
             return 0;
@@ -298,7 +300,7 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
                 headerNR->length - headerNR->runListOffset, totalCluster);
 
             runList->resize(runListTmp.size());
-            for (size_t i=0; i<runListTmp.size(); i++)
+            for (size_t i = 0; i < runListTmp.size(); i++)
                 (*runList)[i] = runListTmp[i];
 
             if (contentSize != NULL)
@@ -314,7 +316,7 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
             //  attribute list is resident
             stage = 3;
 
-            AttributeHeaderR *attrListR = (AttributeHeaderR *)attrListNR;
+            AttributeHeaderR* attrListR = (AttributeHeaderR*)attrListNR;
             attrListData.resize(attrListR->contentLength);
             memcpy(
                 &attrListData[0],
@@ -337,14 +339,14 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
             attrListData.resize(attrListNR->contentSize);
             vector<BYTE> cluster(clusterSize);
             LONGLONG p = 0;
-            for (Run &run: attrRunList)
+            for (Run& run : attrRunList)
             {
                 //  some clusters are reserved
                 if (p >= attrListNR->contentSize)
                     break;
 
-                seek(h, run.offset*clusterSize);
-                for (LONGLONG i=0; i<run.length && p<attrListNR->contentSize; i++)
+                seek(h, run.offset * clusterSize);
+                for (LONGLONG i = 0; i < run.length && p < attrListNR->contentSize; i++)
                 {
                     DWORD read = 0;
                     if (!ReadFile(h, &cluster[0], clusterSize, &read, NULL) ||
@@ -358,7 +360,7 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
             }
         }
 
-        AttributeRecord *attr = NULL;
+        AttributeRecord* attr = NULL;
         LONGLONG runNum = 0;
         if (contentSize != NULL)
             *contentSize = -1;
@@ -367,18 +369,18 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
             p + sizeof(AttributeRecord) <= attrListData.size();
             p += attr->recordLength)
         {
-            attr = (AttributeRecord *)&attrListData[p];
+            attr = (AttributeRecord*)&attrListData[p];
             if (attr->typeID == typeID)
             {
                 vector<BYTE> extRecord(recordSize);
-                RecordHeader *extRecordHeader = (RecordHeader *)&extRecord[0];
+                RecordHeader* extRecordHeader = (RecordHeader*)&extRecord[0];
 
                 readRecord(h, attr->recordNumber & 0xffffffffffffLL, MFTRunList,
                     recordSize, clusterSize, sectorSize, &extRecord[0]);
                 if (memcmp(extRecordHeader->signature, "FILE", 4) != 0)
                     throw _T("Extenion record is invalid");
 
-                AttributeHeaderNR *extAttr = (AttributeHeaderNR *)findAttribute(
+                AttributeHeaderNR* extAttr = (AttributeHeaderNR*)findAttribute(
                     extRecordHeader, recordSize, typeID);
                 if (extAttr == NULL)
                     throw _T("Attribute is not found in extension record");
@@ -393,8 +395,8 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
                     extAttr->length - extAttr->runListOffset, totalCluster);
 
                 runList->resize(runNum + runListTmp.size());
-                for (size_t i=0; i<runListTmp.size(); i++)
-                    (*runList)[runNum+i] = runListTmp[i];
+                for (size_t i = 0; i < runListTmp.size(); i++)
+                    (*runList)[runNum + i] = runListTmp[i];
                 runNum += runListTmp.size();
             }
         }
@@ -404,7 +406,7 @@ int readRunList(HANDLE h, LONGLONG recordIndex, DWORD typeID,
 
 int main()
 {
-    LPWSTR *argv = NULL;
+    LPWSTR* argv = NULL;
     HANDLE h = INVALID_HANDLE_VALUE;
     HANDLE output = INVALID_HANDLE_VALUE;
     int result = -1;
@@ -479,7 +481,7 @@ int main()
         //  Read MFT size and run list
         vector<Run> MFTRunList(1, Run(
             bootSector.MFTCluster,
-            24*recordSize/clusterSize));
+            24 * recordSize / clusterSize));
         LONGLONG MFTSize = 0LL;
         int MFTStage = readRunList(
             h,
@@ -494,13 +496,13 @@ int main()
             &MFTSize);
 
         _tprintf(_T("MFT stage: %d\n"), MFTStage);
-        if (MFTStage==0 || MFTStage==1)
+        if (MFTStage == 0 || MFTStage == 1)
             throw _T("MFT stage is 1");
         _tprintf(_T("MFT size: %llu\n"), MFTSize);
         ULONGLONG recordNumber = MFTSize / recordSize;
         _tprintf(_T("Record number: %llu\n"), recordNumber);
         _tprintf(_T("MFT run list: %lld\n"), MFTRunList.size());
-        for (Run &run: MFTRunList)
+        for (Run& run : MFTRunList)
             _tprintf(_T("  %16llx %16llx\n"), run.offset, run.length);
 
         if (argc == 2)
@@ -509,9 +511,9 @@ int main()
             _tprintf(_T("File List:\n"));
 
             vector<BYTE> record(recordSize);
-            RecordHeader *recordHeader = (RecordHeader *)&record[0];
+            RecordHeader* recordHeader = (RecordHeader*)&record[0];
 
-            for (ULONGLONG recordIndex=0; recordIndex<recordNumber; recordIndex++)
+            for (ULONGLONG recordIndex = 0; recordIndex < recordNumber; recordIndex++)
             {
                 _tprintf(_T("%12lld"), recordIndex);
                 try
@@ -519,7 +521,7 @@ int main()
                     readRecord(h, recordIndex, MFTRunList, recordSize,
                         clusterSize, sectorSize, &record[0]);
 
-                    if (memcmp(recordHeader->signature, "FILE", 4) !=  0)
+                    if (memcmp(recordHeader->signature, "FILE", 4) != 0)
                     {
                         _tprintf(_T(" -\n"));
                         continue;
@@ -541,16 +543,16 @@ int main()
                     default:     _tprintf(_T(" ?????"));
                     }
 
-                    AttributeHeaderR *name = (AttributeHeaderR *)findAttribute(
+                    AttributeHeaderR* name = (AttributeHeaderR*)findAttribute(
                         recordHeader, recordSize, 0x30,
                         [&](LPBYTE a) -> bool
                         {
-                            AttributeHeaderR *name = (AttributeHeaderR *)a;
+                            AttributeHeaderR* name = (AttributeHeaderR*)a;
                             if (name->formCode != 0)
                                 throw _T("Non-esident $File_Name is not supported");
-                            FileName *content =(FileName *)(a + name->contentOffset);
-                            if (LPBYTE(content) + sizeof (FileName)
-                                > &record[0] + recordSize)
+                            FileName* content = (FileName*)(a + name->contentOffset);
+                            if (LPBYTE(content) + sizeof(FileName)
+            > &record[0] + recordSize)
                                 throw _T("$File_Name size is invalid");
 
                             //  0x02 = DOS Name
@@ -561,10 +563,10 @@ int main()
                     if (name == NULL)
                         throw _T("Failed to find $File_Name attribute");
 
-                    FileName *content =(FileName *)(LPBYTE(name)
+                    FileName* content = (FileName*)(LPBYTE(name)
                         + name->contentOffset);
                     if (content->name + content->nameLength
-                        > &record[0] + recordSize)
+                > &record[0] + recordSize)
                         throw _T("$File_Name size is invalid");
 
                     _tprintf(_T(" %.*s\n"), content->nameLength,
@@ -611,15 +613,15 @@ int main()
             if (output == INVALID_HANDLE_VALUE)
                 throw _T("Failed to open output file");
 
-            if (stage ==  1)
+            if (stage == 1)
             {
                 vector<BYTE> record(recordSize);
-                RecordHeader *recordHeader = (RecordHeader *)&record[0];
+                RecordHeader* recordHeader = (RecordHeader*)&record[0];
 
                 readRecord(h, targetRecord, MFTRunList, recordSize, clusterSize,
                     sectorSize, &record[0]);
 
-                AttributeHeaderR *data = (AttributeHeaderR *)findAttribute(
+                AttributeHeaderR* data = (AttributeHeaderR*)findAttribute(
                     recordHeader, recordSize, 0x80);
 
                 _tprintf(_T("File size: %u\n"), data->contentLength);
@@ -628,7 +630,7 @@ int main()
                     throw _T("File size is too large");
 
                 DWORD written;
-                if (!WriteFile(output, LPBYTE(data)+data->contentOffset,
+                if (!WriteFile(output, LPBYTE(data) + data->contentOffset,
                     data->contentLength, &written, NULL) ||
                     written != data->contentLength)
                     throw _T("Failed to write output file");
@@ -639,12 +641,12 @@ int main()
                 LONGLONG writeSize = 0;
 
                 _tprintf(_T("Run list: %lld\n"), runList.size());
-                for (Run &run: runList)
+                for (Run& run : runList)
                 {
                     _tprintf(_T("  %16llx %16llx\n"), run.offset, run.length);
 
-                    seek(h, run.offset*clusterSize);
-                    for (LONGLONG i=0; i<run.length; i++)
+                    seek(h, run.offset * clusterSize);
+                    for (LONGLONG i = 0; i < run.length; i++)
                     {
                         if (writeSize + run.length > contentSize)
                             throw _T("File size error");
