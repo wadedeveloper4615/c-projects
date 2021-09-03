@@ -26,9 +26,7 @@ BOOL fShowPDATA = FALSE;
 BOOL fShowResources = FALSE;
 
 TCHAR *ProcessCommandLine(int argc, TCHAR* argv[]) {
-    int i;
-
-    for (i = 1; i < argc; i++) {
+    for (int i = 1; i < argc; i++) {
         _tcsupr_s(argv[i],_tcslen(argv[i]));
         // Is it a switch character?
         if ((argv[i][0] == '-') || (argv[i][0] == '/')) {
