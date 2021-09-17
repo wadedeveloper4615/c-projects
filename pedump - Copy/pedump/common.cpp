@@ -156,7 +156,7 @@ void DumpOptionalHeader(PIMAGE_OPTIONAL_HEADER optionalHeader)
 #ifndef _WIN64
     printf("  %-*s%X\n", width, "base of data", optionalHeader->BaseOfData);
 #endif
-    printf("  %-*s%X\n", width, "image base", optionalHeader->ImageBase);
+    printf("  %-*s%lX\n", width, "image base", optionalHeader->ImageBase);
 
     printf("  %-*s%X\n", width, "section align",
         optionalHeader->SectionAlignment);
@@ -481,17 +481,15 @@ void DumpDebugDirectory(PIMAGE_DEBUG_DIRECTORY debugDir, DWORD size, void *base)
 		switch( debugDir->Type )
 		{
         	case IMAGE_DEBUG_TYPE_COFF:
-	            g_pCOFFHeader =
-                (PIMAGE_COFF_SYMBOLS_HEADER)(base+ debugDir->PointerToRawData);
+	            g_pCOFFHeader = (PIMAGE_COFF_SYMBOLS_HEADER)((ULONGLONG)base+ debugDir->PointerToRawData);
 				break;
 
 			case IMAGE_DEBUG_TYPE_MISC:
-				g_pMiscDebugInfo =
-				(PIMAGE_DEBUG_MISC)(base + debugDir->PointerToRawData);
+				g_pMiscDebugInfo = (PIMAGE_DEBUG_MISC)((ULONGLONG)base + debugDir->PointerToRawData);
 				break;
 
 			case IMAGE_DEBUG_TYPE_CODEVIEW:
-				g_pCVHeader = (PDWORD)(base + debugDir->PointerToRawData);
+				g_pCVHeader = (PDWORD)((ULONGLONG)base + debugDir->PointerToRawData);
 				break;
 		}
 

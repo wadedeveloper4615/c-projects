@@ -76,7 +76,7 @@ COFFSymbol::GetAuxSymbolAsString( char * pszBuffer, unsigned cbBuffer )
     
     if ( m_pSymbolData->StorageClass == IMAGE_SYM_CLASS_FILE )
 	{
-        strncpy( pszBuffer, (char *)auxSym, cbBuffer );
+        strncpy_s( pszBuffer, cbBuffer, (char *)auxSym, cbBuffer );
 	}
     else if ( (m_pSymbolData->StorageClass == IMAGE_SYM_CLASS_EXTERNAL) )
     {
