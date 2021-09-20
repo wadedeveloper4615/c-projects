@@ -27,7 +27,7 @@ void DumpResourceDirectory
 );
 
 // The predefined resource types
-char *SzResourceTypes[] = {
+const char *SzResourceTypes[] = {
 "???_0",
 "CURSOR",
 "BITMAP",
@@ -515,7 +515,7 @@ void DumpResourceDirectory
 //
 // Top level routine called to dump out the entire resource hierarchy
 //
-void DumpResourceSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
+void DumpResourceSection(void *base, PIMAGE_NT_HEADERS pNTHeader)
 {
 	DWORD resourcesRVA;
     PIMAGE_RESOURCE_DIRECTORY resDir;

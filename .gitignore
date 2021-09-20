@@ -54,3 +54,6 @@ pedump - Copy/pedump/Win32/
 pedump - Copy/pedump/x64/
 pedump/Win32/
 pedump/x64/
+PEDumpOld/pedump/Win32/
+PEDumpOld/pedump/x64/
+PEDumpOld/.vs/

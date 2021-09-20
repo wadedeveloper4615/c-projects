@@ -51,10 +51,7 @@ void DumpDbgFile( PIMAGE_SEPARATE_DEBUG_HEADER pImageSepDbgHeader )
                         pImageSepDbgHeader->NumberOfSections, TRUE);
                     
     DumpDebugDirectory(
-        MakePtr(PIMAGE_DEBUG_DIRECTORY,
-        pImageSepDbgHeader, sizeof(IMAGE_SEPARATE_DEBUG_HEADER) +
-        (pImageSepDbgHeader->NumberOfSections * sizeof(IMAGE_SECTION_HEADER))
-        + pImageSepDbgHeader->ExportedNamesSize),
+        MakePtr(PIMAGE_DEBUG_DIRECTORY, pImageSepDbgHeader, sizeof(IMAGE_SEPARATE_DEBUG_HEADER) + (pImageSepDbgHeader->NumberOfSections * sizeof(IMAGE_SECTION_HEADER)) + pImageSepDbgHeader->ExportedNamesSize),
         pImageSepDbgHeader->DebugDirectorySize,
         pImageSepDbgHeader);
     

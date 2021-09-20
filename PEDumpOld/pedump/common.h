@@ -22,7 +22,7 @@ PIMAGE_SECTION_HEADER GetEnclosingSectionHeader(DWORD rva,
 void DumpRawSectionData(PIMAGE_SECTION_HEADER section,
                         PVOID base,
                         unsigned cSections);
-void DumpDebugDirectory(PIMAGE_DEBUG_DIRECTORY debugDir, DWORD size, DWORD base);
+void DumpDebugDirectory(PIMAGE_DEBUG_DIRECTORY debugDir, DWORD size, void *base);
 void DumpCOFFHeader(PIMAGE_COFF_SYMBOLS_HEADER pDbgInfo);
 void HexDump(PBYTE ptr, DWORD length);
 

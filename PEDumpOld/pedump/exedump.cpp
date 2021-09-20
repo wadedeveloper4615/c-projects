@@ -13,7 +13,7 @@
 #include "resdump.h"
 #include "extrnvar.h"
 
-void DumpExeDebugDirectory(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
+void DumpExeDebugDirectory(void * base, PIMAGE_NT_HEADERS pNTHeader)
 {
     PIMAGE_DEBUG_DIRECTORY debugDir;
     PIMAGE_SECTION_HEADER header;
@@ -27,10 +27,10 @@ void DumpExeDebugDirectory(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
 
     // If we found a .debug section, and the debug directory is at the
     // beginning of this section, it looks like a Borland file
-    header = GetSectionHeader(".debug", pNTHeader);
+    header = GetSectionHeader((PSTR)".debug", pNTHeader);
     if ( header && (header->VirtualAddress == va_debug_dir) )
     {
-        debugDir = (PIMAGE_DEBUG_DIRECTORY)(header->PointerToRawData+base);
+        debugDir = (PIMAGE_DEBUG_DIRECTORY)(header->PointerToRawData+(DWORD)base);
         size = GetImgDirEntrySize(pNTHeader, IMAGE_DIRECTORY_ENTRY_DEBUG)
                 * sizeof(IMAGE_DEBUG_DIRECTORY);
     }
@@ -54,7 +54,7 @@ void DumpExeDebugDirectory(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
 //
 // Dump the imports table (the .idata section) of a PE file
 //
-void DumpImportsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
+void DumpImportsSection(void* base, PIMAGE_NT_HEADERS pNTHeader)
 {
     PIMAGE_IMPORT_DESCRIPTOR importDesc;
     PIMAGE_SECTION_HEADER pSection;
@@ -88,7 +88,7 @@ void DumpImportsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
         if ( (importDesc->TimeDateStamp==0 ) && (importDesc->Name==0) )
             break;
         
-        printf("  %s\n", GetPtrFromRVA(importDesc->Name, pNTHeader, base) );
+        printf("  %lx\n", (DWORD)GetPtrFromRVA(importDesc->Name, pNTHeader, base) );
 
         printf("  OrigFirstThunk:  %08X (Unbound IAT)\n",
       			importDesc->Characteristics);
@@ -134,9 +134,8 @@ void DumpImportsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
             }
             else
             {
-                pOrdinalName = thunk->u1.AddressOfData;
-                pOrdinalName = (PIMAGE_IMPORT_BY_NAME)
-                			GetPtrFromRVA((DWORD)pOrdinalName, pNTHeader, base);
+                pOrdinalName = (PIMAGE_IMPORT_BY_NAME)thunk->u1.AddressOfData;
+                pOrdinalName = (PIMAGE_IMPORT_BY_NAME)GetPtrFromRVA((DWORD)pOrdinalName, pNTHeader, base);
                     
                 printf("  %4u  %s", pOrdinalName->Hint, pOrdinalName->Name);
             }
@@ -160,7 +159,7 @@ void DumpImportsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
 //
 // Dump the exports table (usually the .edata section) of a PE file
 //
-void DumpExportsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
+void DumpExportsSection(void* base, PIMAGE_NT_HEADERS pNTHeader)
 {
     PIMAGE_EXPORT_DIRECTORY exportDir;
     PIMAGE_SECTION_HEADER header;
@@ -227,7 +226,7 @@ void DumpExportsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
         if ( (entryPointRVA >= exportsStartRVA)
              && (entryPointRVA <= exportsEndRVA) )
         {
-            printf(" (forwarder -> %s)", entryPointRVA - delta + base );
+            printf(" (forwarder -> %lX)", (DWORD)((DWORD)entryPointRVA - (DWORD)delta + base ));
         }
         
         printf("\n");
@@ -280,7 +279,7 @@ void DumpRuntimeFunctions( DWORD base, PIMAGE_NT_HEADERS pNTHeader )
 }
 
 // The names of the available base relocations
-char *SzRelocTypes[] = {
+const char *SzRelocTypes[] = {
 "ABSOLUTE","HIGH","LOW","HIGHLOW","HIGHADJ","MIPS_JMPADDR",
 "SECTION","REL32" };
 
@@ -328,7 +327,7 @@ void DumpBaseRelocationsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
             // Extract the top 4 bits of the relocation entry.  Turn those 4
             // bits into an appropriate descriptive string (szRelocType)
             relocType = (*pEntry & 0xF000) >> 12;
-            szRelocType = relocType < 8 ? SzRelocTypes[relocType] : "unknown";
+            szRelocType = (char *)(relocType < 8 ? SzRelocTypes[relocType] : "unknown");
             
             printf("  %08X %s",
                     (*pEntry & 0x0FFF) + baseReloc->VirtualAddress,
@@ -353,7 +352,7 @@ void DumpBaseRelocationsSection(DWORD base, PIMAGE_NT_HEADERS pNTHeader)
 //
 // Dump out the new IMAGE_BOUND_IMPORT_DESCRIPTOR that NT 3.51 added
 //
-void DumpBoundImportDescriptors( DWORD base, PIMAGE_NT_HEADERS pNTHeader )
+void DumpBoundImportDescriptors(void* base, PIMAGE_NT_HEADERS pNTHeader )
 {
     DWORD bidRVA;   // Bound import descriptors RVA
     PIMAGE_BOUND_IMPORT_DESCRIPTOR pibid;
@@ -373,7 +372,7 @@ void DumpBoundImportDescriptors( DWORD base, PIMAGE_NT_HEADERS pNTHeader )
         unsigned i;
         PIMAGE_BOUND_FORWARDER_REF pibfr;
         
-        printf( "  %-12s  %08X -> %s",
+        printf( "  %-12lx  %08X -> %s",
         		base + bidRVA + pibid->OffsetModuleName,
                 pibid->TimeDateStamp,
                 ctime((time_t *)&pibid->TimeDateStamp) );
@@ -383,7 +382,7 @@ void DumpBoundImportDescriptors( DWORD base, PIMAGE_NT_HEADERS pNTHeader )
 
         for ( i=0; i < pibid->NumberOfModuleForwarderRefs; i++ )
         {
-            printf("    forwarder:  %-12s  %08X -> %s", 
+            printf("    forwarder:  %-12lx  %08X -> %s", 
                             base + bidRVA + pibfr->OffsetModuleName,
                             pibfr->TimeDateStamp,
                             ctime((time_t *)&pibfr->TimeDateStamp) );
@@ -404,7 +403,7 @@ void DumpBoundImportDescriptors( DWORD base, PIMAGE_NT_HEADERS pNTHeader )
 void DumpExeFile( PIMAGE_DOS_HEADER dosHeader )
 {
     PIMAGE_NT_HEADERS pNTHeader;
-    DWORD base = (DWORD)dosHeader;
+    void *base = (void *)dosHeader;
     
     pNTHeader = MakePtr( PIMAGE_NT_HEADERS, dosHeader,
                                 dosHeader->e_lfanew );

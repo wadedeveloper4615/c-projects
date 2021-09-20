@@ -391,7 +391,7 @@ LPVOID GetSectionPtr(PSTR name, PIMAGE_NT_HEADERS pNTHeader, DWORD imageBase)
     return 0;
 }
 
-LPVOID GetPtrFromRVA( DWORD rva, PIMAGE_NT_HEADERS pNTHeader, DWORD imageBase )
+LPVOID GetPtrFromRVA( DWORD rva, PIMAGE_NT_HEADERS pNTHeader, void *imageBase )
 {
 	PIMAGE_SECTION_HEADER pSectionHdr;
 	INT delta;
@@ -401,7 +401,7 @@ LPVOID GetPtrFromRVA( DWORD rva, PIMAGE_NT_HEADERS pNTHeader, DWORD imageBase )
 		return 0;
 
 	delta = (INT)(pSectionHdr->VirtualAddress-pSectionHdr->PointerToRawData);
-	return (PVOID) ( imageBase + rva - delta );
+	return (PVOID) ((void *)imageBase + (void*)rva - (void*)delta );
 }
 
 //
@@ -574,11 +574,11 @@ void HexDump(PBYTE ptr, DWORD length)
                 if ( value < 0x10 )
                 {
                     *buffPtr++ = '0';
-                    itoa( value, buffPtr++, 16);
+                    _itoa( value, buffPtr++, 16);
                 }
                 else
                 {
-                    itoa( value, buffPtr, 16);
+                    _itoa( value, buffPtr, 16);
                     buffPtr+=2;
                 }
  

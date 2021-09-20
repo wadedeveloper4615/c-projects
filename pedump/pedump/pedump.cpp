@@ -1,13 +1,9 @@
 #include <windows.h>
 #include <stdio.h>
+#include <time.h>
+#include "Common.h"
+#include "ExeDump.h"
 
-BOOL fShowRelocations = FALSE;
-BOOL fShowRawSectionData = FALSE;
-BOOL fShowSymbolTable = FALSE;
-BOOL fShowLineNumbers = FALSE;
-BOOL fShowIATentries = FALSE;
-BOOL fShowPDATA = FALSE;
-BOOL fShowResources = FALSE;
 char HelpText[] =
 "PEDUMP - Win32/COFF EXE/OBJ/LIB file dumper - 1998 Matt Pietrek\n\n"
 "Syntax: PEDUMP [switches] filename\n\n"
@@ -19,12 +15,9 @@ char HelpText[] =
 "  /P    include PDATA (runtime functions)\n"
 "  /R    include detailed resources (stringtables and dialogs)\n"
 "  /S    show symbol table\n";
- 
-void DumpExeFile(PIMAGE_DOS_HEADER dosHeader);
 
 void DumpFile(LPSTR filename) {
     HANDLE hFile = CreateFileA(filename, GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
-
     if (hFile == INVALID_HANDLE_VALUE) {
         printf("Couldn't open file with CreateFile()\n");
         return;
@@ -49,27 +42,10 @@ void DumpFile(LPSTR filename) {
 
     PIMAGE_DOS_HEADER dosHeader = (PIMAGE_DOS_HEADER)lpFileBase;
     PIMAGE_FILE_HEADER pImgFileHdr = (PIMAGE_FILE_HEADER)lpFileBase;
-
-    if (dosHeader->e_magic == IMAGE_DOS_SIGNATURE)
-    {
+    if (dosHeader->e_magic == IMAGE_DOS_SIGNATURE) {
         DumpExeFile(dosHeader);
     }
-    else if (dosHeader->e_magic == IMAGE_SEPARATE_DEBUG_SIGNATURE)
-    {
-        //DumpDbgFile((PIMAGE_SEPARATE_DEBUG_HEADER)lpFileBase);
-    }
-    else if ((pImgFileHdr->Machine == IMAGE_FILE_MACHINE_I386) || (pImgFileHdr->Machine == IMAGE_FILE_MACHINE_ALPHA))
-    {
-        if (0 == pImgFileHdr->SizeOfOptionalHeader) {	// 0 optional header
-            //DumpObjFile(pImgFileHdr);					// means it's an OBJ
-        }
-    }
-    else if (0 == strncmp((char*)lpFileBase, IMAGE_ARCHIVE_START,IMAGE_ARCHIVE_START_SIZE)) {
-        //DumpLibFile(lpFileBase);
-    }
-    else {
-        printf("unrecognized file format\n");
-    }
+
     UnmapViewOfFile(lpFileBase);
     CloseHandle(hFileMapping);
     CloseHandle(hFile);
@@ -78,10 +54,8 @@ void DumpFile(LPSTR filename) {
 PSTR ProcessCommandLine(int argc, char* argv[]) {
     for (int i = 1; i < argc; i++) {
         _strupr(argv[i]);
-
-        // Is it a switch character?
         if ((argv[i][0] == '-') || (argv[i][0] == '/')) {
-            if (argv[i][1] == 'A') {
+            if (argv[i][1] == 'A'){
                 fShowRelocations = TRUE;
                 fShowRawSectionData = TRUE;
                 fShowSymbolTable = TRUE;
@@ -109,14 +83,16 @@ PSTR ProcessCommandLine(int argc, char* argv[]) {
             return argv[i];
         }
     }
+
     return NULL;
 }
 
-int main(int argc, char* argv[]) {
-    if (argc == 1){
+int main(int argc, char* argv[]){
+    if (argc == 1) {
         printf(HelpText);
         return 1;
     }
+
     PSTR filename = ProcessCommandLine(argc, argv);
     if (filename) {
         DumpFile(filename);
