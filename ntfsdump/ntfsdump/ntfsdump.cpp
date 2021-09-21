@@ -501,7 +501,7 @@ int main()
         _tprintf(_T("MFT size: %llu\n"), MFTSize);
         ULONGLONG recordNumber = MFTSize / recordSize;
         _tprintf(_T("Record number: %llu\n"), recordNumber);
-        _tprintf(_T("MFT run list: %lld\n"), MFTRunList.size());
+        _tprintf(_T("MFT run list: %zd\n"), MFTRunList.size());
         for (Run& run : MFTRunList)
             _tprintf(_T("  %16llx %16llx\n"), run.offset, run.length);
 
@@ -640,7 +640,7 @@ int main()
                 vector<BYTE> cluster(clusterSize);
                 LONGLONG writeSize = 0;
 
-                _tprintf(_T("Run list: %lld\n"), runList.size());
+                _tprintf(_T("Run list: %zd\n"), runList.size());
                 for (Run& run : runList)
                 {
                     _tprintf(_T("  %16llx %16llx\n"), run.offset, run.length);

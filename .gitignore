@@ -57,3 +57,11 @@ pedump/x64/
 PEDumpOld/pedump/Win32/
 PEDumpOld/pedump/x64/
 PEDumpOld/.vs/
+Deduce/.vs/
+Deduce/Deduce/Win32/
+Deduce/Deduce/x64/
+Deduce/Win32/
+Deduce/x64/
+Old/PEDumpOld/.vs/
+Old/PEDumpOld/pedump/Win32/
+Old/PEDumpOld/pedump/x64/
