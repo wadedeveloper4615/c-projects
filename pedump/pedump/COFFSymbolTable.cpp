@@ -182,14 +182,14 @@ COFFSymbolTable::GetNextSymbol( PCOFFSymbol pSymbol )
 
 	// Just tweak the values in the COFFSymbol and return it;
 	pSymbol->CleanUp();
-	pSymbol->m_pSymbolData += ( 1 + cAuxSymbols );
+	pSymbol->m_pSymbolData += ((DWORD64)1 + (DWORD64)cAuxSymbols );
 	pSymbol->m_index += (1 + cAuxSymbols );
 
 	return pSymbol;
 }
 
 PCOFFSymbol
-COFFSymbolTable::GetNearestSymbolFromRVA( DWORD rva, BOOL fExact )
+COFFSymbolTable::GetNearestSymbolFromRVA( DWORD64 rva, BOOL fExact )
 {
 	if ( !fExact )
 		return 0;

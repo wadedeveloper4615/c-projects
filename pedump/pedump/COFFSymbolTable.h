@@ -54,7 +54,7 @@ class COFFSymbolTable
 
 	PCOFFSymbol GetNextSymbol( PCOFFSymbol );	// 0 begins iteration
 
-	PCOFFSymbol GetNearestSymbolFromRVA( DWORD rva, BOOL fExact );
+	PCOFFSymbol GetNearestSymbolFromRVA( DWORD64 rva, BOOL fExact );
 
 	PCOFFSymbol GetSymbolFromIndex( DWORD index );
 };

@@ -524,6 +524,323 @@ void DumpBoundImportDescriptors(void* base, PIMAGE_NT_HEADERS pNTHeader) {
     }
 }
 
+void DumpRuntimeFunctions(DWORD64 base, PIMAGE_NT_HEADERS pNTHeader) {
+    DWORD rtFnRVA;
+
+    rtFnRVA = GetImgDirEntryRVA(pNTHeader, IMAGE_DIRECTORY_ENTRY_EXCEPTION);
+    if (!rtFnRVA)
+        return;
+
+    DWORD cEntries =
+        GetImgDirEntrySize(pNTHeader, IMAGE_DIRECTORY_ENTRY_EXCEPTION)
+        / sizeof(IMAGE_RUNTIME_FUNCTION_ENTRY);
+    if (0 == cEntries)
+        return;
+
+    PIMAGE_RUNTIME_FUNCTION_ENTRY pRTFn = (PIMAGE_RUNTIME_FUNCTION_ENTRY)
+        GetPtrFromRVA(rtFnRVA, pNTHeader, base);
+
+    if (!pRTFn)
+        return;
+
+    printf("Runtime Function Table (Exception handling)\n");
+    printf("  Begin     End\n");
+    printf("  --------  --------  --------\n");
+
+    for (unsigned i = 0; i < cEntries; i++, pRTFn++) {
+        printf("  %08X  %08X", pRTFn->BeginAddress, pRTFn->EndAddress);
+        if (g_pCOFFSymbolTable) {
+            PCOFFSymbol pSymbol = g_pCOFFSymbolTable->GetNearestSymbolFromRVA((DWORD64)pRTFn->BeginAddress - (DWORD64)pNTHeader->OptionalHeader.ImageBase, TRUE);
+            if (pSymbol) printf("  %s", pSymbol->GetName());
+            delete pSymbol;
+        }
+        printf("\n");
+    }
+}
+
+const char* SzRelocTypes[] = {"ABSOLUTE","HIGH","LOW","HIGHLOW","HIGHADJ","MIPS_JMPADDR","SECTION","REL32" };
+
+void DumpBaseRelocationsSection(DWORD64 base, PIMAGE_NT_HEADERS pNTHeader)
+{
+    DWORD dwBaseRelocRVA;
+    PIMAGE_BASE_RELOCATION baseReloc;
+
+    dwBaseRelocRVA =
+        GetImgDirEntryRVA(pNTHeader, IMAGE_DIRECTORY_ENTRY_BASERELOC);
+    if (!dwBaseRelocRVA)
+        return;
+
+    baseReloc = (PIMAGE_BASE_RELOCATION)
+        GetPtrFromRVA(dwBaseRelocRVA, pNTHeader, base);
+    if (!baseReloc)
+        return;
+
+    printf("base relocations:\n\n");
+
+    while (baseReloc->SizeOfBlock != 0)
+    {
+        unsigned i, cEntries;
+        PWORD pEntry;
+        char* szRelocType;
+        WORD relocType;
+
+        // Sanity check to make sure the data looks OK.
+        if (0 == baseReloc->VirtualAddress)
+            break;
+        if (baseReloc->SizeOfBlock < sizeof(*baseReloc))
+            break;
+
+        cEntries = (baseReloc->SizeOfBlock - sizeof(*baseReloc)) / sizeof(WORD);
+        pEntry = MakePtr(PWORD, baseReloc, sizeof(*baseReloc));
+
+        printf("Virtual Address: %08X  size: %08X\n",
+            baseReloc->VirtualAddress, baseReloc->SizeOfBlock);
+
+        for (i = 0; i < cEntries; i++)
+        {
+            // Extract the top 4 bits of the relocation entry.  Turn those 4
+            // bits into an appropriate descriptive string (szRelocType)
+            relocType = (*pEntry & 0xF000) >> 12;
+            szRelocType = (char*)(relocType < 8 ? SzRelocTypes[relocType] : "unknown");
+
+            printf("  %08X %s",
+                (*pEntry & 0x0FFF) + baseReloc->VirtualAddress,
+                szRelocType);
+
+            if (IMAGE_REL_BASED_HIGHADJ == relocType)
+            {
+                pEntry++;
+                cEntries--;
+                printf(" (%X)", *pEntry);
+            }
+
+            printf("\n");
+            pEntry++;   // Advance to next relocation entry
+        }
+
+        baseReloc = MakePtr(PIMAGE_BASE_RELOCATION, baseReloc,
+            baseReloc->SizeOfBlock);
+    }
+}
+
+void DumpMiscDebugInfo(PIMAGE_DEBUG_MISC pMiscDebugInfo){
+    if (IMAGE_DEBUG_MISC_EXENAME != pMiscDebugInfo->DataType) {
+        printf("Unknown Miscellaneous Debug Information type: %u\n", pMiscDebugInfo->DataType);
+        return;
+    }
+    printf("Miscellaneous Debug Information\n");
+    printf("  %s\n", pMiscDebugInfo->Data);
+}
+
+void DumpCVDebugInfo(PDWORD pCVHeader)
+{
+    PPDB_INFO pPDBInfo;
+
+    printf("CodeView Signature: %08X\n", *pCVHeader);
+
+    if ('01BN' != *pCVHeader)
+    {
+        printf("Unhandled CodeView Information format %llX\n", (DWORD64)pCVHeader);
+        return;
+    }
+
+    pPDBInfo = (PPDB_INFO)pCVHeader;
+
+    printf("  Offset: %08X  Signature: %08X  Age: %08X\n", pPDBInfo->Offset, pPDBInfo->sig, pPDBInfo->age);
+    printf("  File: %s\n", pPDBInfo->PdbName);
+}
+
+void DumpCOFFHeader(PIMAGE_COFF_SYMBOLS_HEADER pDbgInfo)
+{
+    printf("COFF Debug Info Header\n");
+    printf("  NumberOfSymbols:      %08X\n", pDbgInfo->NumberOfSymbols);
+    printf("  LvaToFirstSymbol:     %08X\n", pDbgInfo->LvaToFirstSymbol);
+    printf("  NumberOfLinenumbers:  %08X\n", pDbgInfo->NumberOfLinenumbers);
+    printf("  LvaToFirstLinenumber: %08X\n", pDbgInfo->LvaToFirstLinenumber);
+    printf("  RvaToFirstByteOfCode: %08X\n", pDbgInfo->RvaToFirstByteOfCode);
+    printf("  RvaToLastByteOfCode:  %08X\n", pDbgInfo->RvaToLastByteOfCode);
+    printf("  RvaToFirstByteOfData: %08X\n", pDbgInfo->RvaToFirstByteOfData);
+    printf("  RvaToLastByteOfData:  %08X\n", pDbgInfo->RvaToLastByteOfData);
+}
+
+BOOL LookupSymbolName(DWORD index, PSTR buffer, UINT length)
+{
+    if (!g_pCOFFSymbolTable)
+        return FALSE;
+
+    PCOFFSymbol pSymbol = g_pCOFFSymbolTable->GetSymbolFromIndex(index);
+
+    if (!pSymbol)
+        return FALSE;
+
+    strncpy(buffer, pSymbol->GetName(), length);
+
+    delete pSymbol;
+
+    return TRUE;
+}
+
+void DumpLineNumbers(PIMAGE_LINENUMBER pln, DWORD count)
+{
+    char buffer[64];
+    DWORD i;
+
+    printf("Line Numbers\n");
+
+    for (i = 0; i < count; i++)
+    {
+        if (pln->Linenumber == 0) // A symbol table index
+        {
+            buffer[0] = 0;
+            LookupSymbolName(pln->Type.SymbolTableIndex, buffer,
+                sizeof(buffer));
+            printf("SymIndex: %X (%s)\n", pln->Type.SymbolTableIndex,
+                buffer);
+        }
+        else        // A regular line number
+            printf(" Addr: %05X  Line: %04u\n",
+                pln->Type.VirtualAddress, pln->Linenumber);
+        pln++;
+    }
+}
+
+void GetSectionName(WORD section, PSTR buffer, unsigned cbBuffer)
+{
+    char tempbuffer[10];
+
+    switch ((SHORT)section)
+    {
+    case IMAGE_SYM_UNDEFINED: strcpy(tempbuffer, "UNDEF"); break;
+    case IMAGE_SYM_ABSOLUTE:  strcpy(tempbuffer, "ABS"); break;
+    case IMAGE_SYM_DEBUG:     strcpy(tempbuffer, "DEBUG"); break;
+    default: sprintf(tempbuffer, "%X", section);
+    }
+
+    strncpy(buffer, tempbuffer, cbBuffer - 1);
+}
+
+void DumpSymbolTable(PCOFFSymbolTable pSymTab)
+{
+    printf("Symbol Table - %X entries  (* = auxillary symbol)\n",
+        pSymTab->GetNumberOfSymbols());
+
+
+    printf(
+        "Indx Sectn Value    Type  Storage  Name\n"
+        "---- ----- -------- ----- -------  --------\n");
+
+    PCOFFSymbol pSymbol = pSymTab->GetNextSymbol(0);
+
+    while (pSymbol)
+    {
+        char szSection[10];
+        GetSectionName(pSymbol->GetSectionNumber(), szSection, sizeof(szSection));
+
+        printf("%04X %5s %08X  %s %-8s %s\n",
+            pSymbol->GetIndex(), szSection, pSymbol->GetValue(),
+            pSymbol->GetTypeName(), pSymbol->GetStorageClassName(),
+            pSymbol->GetName());
+
+        if (pSymbol->GetNumberOfAuxSymbols())
+        {
+            char szAuxSymbol[1024];
+            if (pSymbol->GetAuxSymbolAsString(szAuxSymbol, sizeof(szAuxSymbol)))
+                printf("     * %s\n", szAuxSymbol);
+        }
+
+        pSymbol = pSymTab->GetNextSymbol(pSymbol);
+
+    }
+}
+
+#define HEX_DUMP_WIDTH 16
+
+//
+// Dump a region of memory in a hexadecimal format
+//
+void HexDump(PBYTE ptr, DWORD length)
+{
+    char buffer[256];
+    PSTR buffPtr, buffPtr2;
+    unsigned cOutput, i;
+    DWORD bytesToGo = length;
+
+    while (bytesToGo)
+    {
+        cOutput = bytesToGo >= HEX_DUMP_WIDTH ? HEX_DUMP_WIDTH : bytesToGo;
+
+        buffPtr = buffer;
+        buffPtr += sprintf(buffPtr, "%08X:  ", length - bytesToGo);
+        buffPtr2 = buffPtr + (HEX_DUMP_WIDTH * 3) + 1;
+
+        for (i = 0; i < HEX_DUMP_WIDTH; i++)
+        {
+            BYTE value = *(ptr + i);
+
+            if (i >= cOutput)
+            {
+                // On last line.  Pad with spaces
+                *buffPtr++ = ' ';
+                *buffPtr++ = ' ';
+                *buffPtr++ = ' ';
+            }
+            else
+            {
+                if (value < 0x10)
+                {
+                    *buffPtr++ = '0';
+                    _itoa(value, buffPtr++, 16);
+                }
+                else
+                {
+                    _itoa(value, buffPtr, 16);
+                    buffPtr += 2;
+                }
+
+                *buffPtr++ = ' ';
+                *buffPtr2++ = isprint(value) ? value : '.';
+            }
+
+            // Put an extra space between the 1st and 2nd half of the bytes
+            // on each line.
+            if (i == (HEX_DUMP_WIDTH / 2) - 1)
+                *buffPtr++ = ' ';
+        }
+
+        *buffPtr2 = 0;  // Null terminate it.
+        puts(buffer);   // Can't use printf(), since there may be a '%'
+                        // in the string.
+        bytesToGo -= cOutput;
+        ptr += HEX_DUMP_WIDTH;
+    }
+}
+
+void DumpRawSectionData(PIMAGE_SECTION_HEADER section, PVOID base, unsigned cSections) {
+    unsigned i;
+    char name[IMAGE_SIZEOF_SHORT_NAME + 1];
+
+    printf("Section Hex Dumps\n");
+
+    for (i = 1; i <= cSections; i++, section++)
+    {
+        // Make a copy of the section name so that we can ensure that
+        // it's null-terminated
+        memcpy(name, section->Name, IMAGE_SIZEOF_SHORT_NAME);
+        name[IMAGE_SIZEOF_SHORT_NAME] = 0;
+
+        // Don't dump sections that don't exist in the file!
+        if (section->PointerToRawData == 0)
+            continue;
+
+        printf("section %02X (%s)  size: %08X  file offs: %08X\n",
+            i, name, section->SizeOfRawData, section->PointerToRawData);
+
+        HexDump(MakePtr(PBYTE, base, section->PointerToRawData),
+            section->SizeOfRawData);
+        printf("\n");
+    }
+}
+
 void DumpExeFile(PIMAGE_DOS_HEADER dosHeader) {
     PIMAGE_NT_HEADERS pNTHeader;
     void* base = (void *)dosHeader;
@@ -551,7 +868,41 @@ void DumpExeFile(PIMAGE_DOS_HEADER dosHeader) {
     }
     DumpExportsSection(base, pNTHeader);
     printf("\n");
-    if (g_pCOFFHeader){	
+    if (g_pCOFFHeader) {	
         g_pCOFFSymbolTable = new COFFSymbolTable((PVOID)((DWORD64)base + pNTHeader->FileHeader.PointerToSymbolTable),pNTHeader->FileHeader.NumberOfSymbols);
     }
+    if (fShowPDATA) {
+        DumpRuntimeFunctions((DWORD64)base, pNTHeader);
+        printf("\n");
+    }
+    if (fShowRelocations){
+        DumpBaseRelocationsSection((DWORD64)base, pNTHeader);
+        printf("\n");
+    }
+    if (fShowSymbolTable && g_pMiscDebugInfo) {
+        DumpMiscDebugInfo(g_pMiscDebugInfo);
+        printf("\n");
+    }
+    if (fShowSymbolTable && g_pCVHeader) {
+        DumpCVDebugInfo(g_pCVHeader);
+        printf("\n");
+    }
+    if (fShowSymbolTable && g_pCOFFHeader) {
+        DumpCOFFHeader(g_pCOFFHeader);
+        printf("\n");
+    }
+    if (fShowLineNumbers && g_pCOFFHeader) {
+        DumpLineNumbers(MakePtr(PIMAGE_LINENUMBER, g_pCOFFHeader, g_pCOFFHeader->LvaToFirstLinenumber), g_pCOFFHeader->NumberOfLinenumbers);
+        printf("\n");
+    }
+    if (fShowSymbolTable) {
+        if (pNTHeader->FileHeader.NumberOfSymbols && pNTHeader->FileHeader.PointerToSymbolTable && g_pCOFFSymbolTable) {
+            DumpSymbolTable(g_pCOFFSymbolTable);
+            printf("\n");
+        }
+    }
+    if (fShowRawSectionData) {
+        DumpRawSectionData((PIMAGE_SECTION_HEADER)(pNTHeader + 1), dosHeader, pNTHeader->FileHeader.NumberOfSections);
+    }
+    if (g_pCOFFSymbolTable) delete g_pCOFFSymbolTable;
 }
