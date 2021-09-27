@@ -83,7 +83,7 @@ void printNTFSBootSector(NTFSBootSectorPtr bootSector) {
     LONGLONG MFTAddr = bootSector->LCN_MFT * clusterSize;
     LONGLONG MFTMirrAddr = bootSector->LCN_MFTMirr * clusterSize;
 
-    _tprintf(_T("OEM ID:\t\t\t\t \"%08llX\"\n"), bootSector->Signature);
+    _tprintf(_T("OEM ID:\t\t\t\t \"%.8hs\"\n"), (char *)bootSector->Signature);
     _tprintf(_T("Byte/Sector:\t\t\t %u\n"), bootSector->BytesPerSector);
     _tprintf(_T("Sector/Cluster:\t\t\t %u\n"), bootSector->SectorsPerCluster);
     _tprintf(_T("Media descriptor:\t\t %X\n"), bootSector->MediaDescriptor);

@@ -39,8 +39,7 @@ typedef struct _MasterBootRecord {
 
 typedef struct _NTFSBootSector {
         BYTE Jmp[3];
-        //BYTE Signature[8];
-        ULONGLONG Signature;
+        BYTE Signature[8];
         WORD BytesPerSector;
         BYTE SectorsPerCluster;
         WORD ReservedSectors;
